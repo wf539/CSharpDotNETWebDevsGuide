@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor.csproj", "{24F1EF88-E55D-4581-8194-F7F2CA515AEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{24F1EF88-E55D-4581-8194-F7F2CA515AEC}.Debug.ActiveCfg = Debug|.NET
+		{24F1EF88-E55D-4581-8194-F7F2CA515AEC}.Debug.Build.0 = Debug|.NET
+		{24F1EF88-E55D-4581-8194-F7F2CA515AEC}.Release.ActiveCfg = Release|.NET
+		{24F1EF88-E55D-4581-8194-F7F2CA515AEC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

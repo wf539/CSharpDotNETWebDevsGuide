@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:schemas-syngress-com-soap" xmlns:s1="urn:schemas-syngress-com-soap/AbstractTypes" targetNamespace="urn:schemas-syngress-com-soap" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:schemas-syngress-com-soap">
+      <s:element name="echo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="input" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="echoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="echoResult" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="arithmeticMean">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="arrayInput" nillable="true" type="s0:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="arithmeticMeanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="arithmeticMeanResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCounterInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="categoryName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="counterName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="instanceName" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCounterInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getCounterInfoResult" nillable="true" type="s0:PerformanceCounter" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="PerformanceCounter">
+        <s:complexContent mixed="false">
+          <s:extension base="s0:Component">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" default="" name="CategoryName" nillable="true" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" default="" name="CounterName" nillable="true" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" default="" name="InstanceName" nillable="true" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" default="true" name="ReadOnly" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" default="." name="MachineName" nillable="true" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="RawValue" type="s:long" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Component">
+        <s:complexContent mixed="false">
+          <s:extension base="s0:MarshalByRefObject">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Site" nillable="true" type="s0:ISite" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="MarshalByRefObject" abstract="true" />
+      <s:complexType name="ISite" abstract="true">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Name" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="float" type="s:float" />
+      <s:element name="PerformanceCounter" nillable="true" type="s0:PerformanceCounter" />
+    </s:schema>
+    <s:schema targetNamespace="urn:schemas-syngress-com-soap/AbstractTypes">
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="echoSoapIn">
+    <part name="parameters" element="s0:echo" />
+  </message>
+  <message name="echoSoapOut">
+    <part name="parameters" element="s0:echoResponse" />
+  </message>
+  <message name="arithmeticMeanSoapIn">
+    <part name="parameters" element="s0:arithmeticMean" />
+  </message>
+  <message name="arithmeticMeanSoapOut">
+    <part name="parameters" element="s0:arithmeticMeanResponse" />
+  </message>
+  <message name="getCounterInfoSoapIn">
+    <part name="parameters" element="s0:getCounterInfo" />
+  </message>
+  <message name="getCounterInfoSoapOut">
+    <part name="parameters" element="s0:getCounterInfoResponse" />
+  </message>
+  <message name="echoHttpGetIn">
+    <part name="input" type="s:string" />
+  </message>
+  <message name="echoHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="arithmeticMeanHttpGetIn">
+    <part name="arrayInput" type="s1:StringArray" />
+  </message>
+  <message name="arithmeticMeanHttpGetOut">
+    <part name="Body" element="s0:float" />
+  </message>
+  <message name="getCounterInfoHttpGetIn">
+    <part name="categoryName" type="s:string" />
+    <part name="counterName" type="s:string" />
+    <part name="instanceName" type="s:string" />
+  </message>
+  <message name="getCounterInfoHttpGetOut">
+    <part name="Body" element="s0:PerformanceCounter" />
+  </message>
+  <message name="echoHttpPostIn">
+    <part name="input" type="s:string" />
+  </message>
+  <message name="echoHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="arithmeticMeanHttpPostIn">
+    <part name="arrayInput" type="s1:StringArray" />
+  </message>
+  <message name="arithmeticMeanHttpPostOut">
+    <part name="Body" element="s0:float" />
+  </message>
+  <message name="getCounterInfoHttpPostIn">
+    <part name="categoryName" type="s:string" />
+    <part name="counterName" type="s:string" />
+    <part name="instanceName" type="s:string" />
+  </message>
+  <message name="getCounterInfoHttpPostOut">
+    <part name="Body" element="s0:PerformanceCounter" />
+  </message>
+  <portType name="simpleServiceSoap">
+    <operation name="echo">
+      <input message="s0:echoSoapIn" />
+      <output message="s0:echoSoapOut" />
+    </operation>
+    <operation name="arithmeticMean">
+      <documentation>Computes the arithmetic means of an array of input parameters</documentation>
+      <input message="s0:arithmeticMeanSoapIn" />
+      <output message="s0:arithmeticMeanSoapOut" />
+    </operation>
+    <operation name="getCounterInfo">
+      <documentation>Returns performance counter information</documentation>
+      <input message="s0:getCounterInfoSoapIn" />
+      <output message="s0:getCounterInfoSoapOut" />
+    </operation>
+  </portType>
+  <portType name="simpleServiceHttpGet">
+    <operation name="echo">
+      <input message="s0:echoHttpGetIn" />
+      <output message="s0:echoHttpGetOut" />
+    </operation>
+    <operation name="arithmeticMean">
+      <documentation>Computes the arithmetic means of an array of input parameters</documentation>
+      <input message="s0:arithmeticMeanHttpGetIn" />
+      <output message="s0:arithmeticMeanHttpGetOut" />
+    </operation>
+    <operation name="getCounterInfo">
+      <documentation>Returns performance counter information</documentation>
+      <input message="s0:getCounterInfoHttpGetIn" />
+      <output message="s0:getCounterInfoHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="simpleServiceHttpPost">
+    <operation name="echo">
+      <input message="s0:echoHttpPostIn" />
+      <output message="s0:echoHttpPostOut" />
+    </operation>
+    <operation name="arithmeticMean">
+      <documentation>Computes the arithmetic means of an array of input parameters</documentation>
+      <input message="s0:arithmeticMeanHttpPostIn" />
+      <output message="s0:arithmeticMeanHttpPostOut" />
+    </operation>
+    <operation name="getCounterInfo">
+      <documentation>Returns performance counter information</documentation>
+      <input message="s0:getCounterInfoHttpPostIn" />
+      <output message="s0:getCounterInfoHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="simpleServiceSoap" type="s0:simpleServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="echo">
+      <soap:operation soapAction="urn:schemas-syngress-com-soap/echo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="arithmeticMean">
+      <soap:operation soapAction="arithmeticMean" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCounterInfo">
+      <soap:operation soapAction="getCounterInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="simpleServiceHttpGet" type="s0:simpleServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="echo">
+      <http:operation location="/echo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="arithmeticMean">
+      <http:operation location="/arithmeticMean" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="getCounterInfo">
+      <http:operation location="/getCounterInfo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="simpleServiceHttpPost" type="s0:simpleServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="echo">
+      <http:operation location="/echo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="arithmeticMean">
+      <http:operation location="/arithmeticMean" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="getCounterInfo">
+      <http:operation location="/getCounterInfo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="simpleService">
+    <port name="simpleServiceSoap" binding="s0:simpleServiceSoap">
+      <soap:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+    <port name="simpleServiceHttpGet" binding="s0:simpleServiceHttpGet">
+      <http:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+    <port name="simpleServiceHttpPost" binding="s0:simpleServiceHttpPost">
+      <http:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+  </service>
+</definitions>

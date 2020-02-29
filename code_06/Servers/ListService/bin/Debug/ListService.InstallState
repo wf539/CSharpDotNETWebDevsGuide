@@ -1,0 +1,4219 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/System.ServiceProcess/System.ServiceProcess" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Diagnostics/System.Configuration.Install">
+<SOAP-ENV:Body>
+<a1:Hashtable id="ref-1">
+<LoadFactor>0.72</LoadFactor>
+<Version>2</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-2"/>
+<Values href="#ref-3"/>
+</a1:Hashtable>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-4" xsi:type="SOAP-ENC:string">_reserved_lastInstallerAttempted</item>
+<item id="ref-5" xsi:type="SOAP-ENC:string">_reserved_nestedSavedStates</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">0</item>
+<item href="#ref-6"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-6" SOAP-ENC:arrayType="a1:IDictionary[1]">
+<item href="#ref-7"/>
+</SOAP-ENC:Array>
+<a1:Hashtable id="ref-7">
+<LoadFactor>0.72</LoadFactor>
+<Version>2</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-8"/>
+<Values href="#ref-9"/>
+</a1:Hashtable>
+<SOAP-ENC:Array id="ref-8" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-9" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">1</item>
+<item href="#ref-10"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="a1:IDictionary[2]">
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+</SOAP-ENC:Array>
+<a1:Hashtable id="ref-11">
+<LoadFactor>0.72</LoadFactor>
+<Version>3</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-13"/>
+<Values href="#ref-14"/>
+</a1:Hashtable>
+<a1:Hashtable id="ref-12">
+<LoadFactor>0.72</LoadFactor>
+<Version>3</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-15"/>
+<Values href="#ref-16"/>
+</a1:Hashtable>
+<SOAP-ENC:Array id="ref-13" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item href="#ref-4"/>
+<item id="ref-17" xsi:type="SOAP-ENC:string">Account</item>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-14" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item xsi:type="xsd:int">-1</item>
+<item xsi:type="a3:ServiceAccount">LocalSystem</item>
+<item href="#ref-19"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-15" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item href="#ref-4"/>
+<item id="ref-20" xsi:type="SOAP-ENC:string">installed</item>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-16" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item xsi:type="xsd:int">0</item>
+<item xsi:type="xsd:boolean">true</item>
+<item href="#ref-21"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-19" SOAP-ENC:arrayType="a1:IDictionary[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-21" SOAP-ENC:arrayType="a1:IDictionary[1]">
+<item href="#ref-22"/>
+</SOAP-ENC:Array>
+<a1:Hashtable id="ref-22">
+<LoadFactor>0.72</LoadFactor>
+<Version>6</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-23"/>
+<Values href="#ref-24"/>
+</a1:Hashtable>
+<SOAP-ENC:Array id="ref-23" SOAP-ENC:arrayType="xsd:ur-type[6]">
+<item href="#ref-4"/>
+<item id="ref-25" xsi:type="SOAP-ENC:string">baseInstalledAndPlatformOK</item>
+<item href="#ref-5"/>
+<item id="ref-26" xsi:type="SOAP-ENC:string">logExists</item>
+<item id="ref-27" xsi:type="SOAP-ENC:string">alreadyRegistered</item>
+<item id="ref-28" xsi:type="SOAP-ENC:string">oldKey</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-24" SOAP-ENC:arrayType="xsd:ur-type[6]">
+<item xsi:type="xsd:int">-1</item>
+<item xsi:type="xsd:boolean">true</item>
+<item href="#ref-29"/>
+<item xsi:type="xsd:boolean">true</item>
+<item xsi:type="xsd:boolean">true</item>
+<item href="#ref-30"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-29" SOAP-ENC:arrayType="a1:IDictionary[0]">
+</SOAP-ENC:Array>
+<a4:SerializableRegistryKey id="ref-30">
+<ValueNames href="#ref-32"/>
+<Values href="#ref-33"/>
+<KeyNames href="#ref-34"/>
+<Keys href="#ref-35"/>
+</a4:SerializableRegistryKey>
+<SOAP-ENC:Array id="ref-32" SOAP-ENC:arrayType="xsd:string[8]">
+<item id="ref-36">DisplayNameFile</item>
+<item id="ref-37">DisplayNameID</item>
+<item id="ref-38">File</item>
+<item id="ref-39">MaxSize</item>
+<item id="ref-40">PrimaryModule</item>
+<item id="ref-41">Retention</item>
+<item id="ref-42"></item>
+<item id="ref-43">Sources</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-33" SOAP-ENC:arrayType="xsd:ur-type[8]">
+<item id="ref-44" xsi:type="SOAP-ENC:string">C:\WINNT\system32\els.dll</item>
+<item xsi:type="xsd:int">256</item>
+<item id="ref-45" xsi:type="SOAP-ENC:string">C:\WINNT\system32\config\AppEvent.Evt</item>
+<item xsi:type="xsd:int">524288</item>
+<item id="ref-46" xsi:type="SOAP-ENC:string">Application</item>
+<item xsi:type="xsd:int">604800</item>
+<item id="ref-47" xsi:type="SOAP-ENC:string">mnmsrvc</item>
+<item href="#ref-48"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-34" SOAP-ENC:arrayType="xsd:string[93]">
+<item id="ref-49">.NET Runtime</item>
+<item id="ref-50">Active Server Pages</item>
+<item id="ref-51">APGTS</item>
+<item id="ref-52">Application</item>
+<item id="ref-53">Application Management</item>
+<item id="ref-54">ASP.NET 1.0.2914.16</item>
+<item id="ref-55">ASPX</item>
+<item id="ref-56">Autochk</item>
+<item id="ref-57">Automation Manager</item>
+<item id="ref-58">Chkdsk</item>
+<item id="ref-59">Ci</item>
+<item id="ref-60">COM+</item>
+<item id="ref-61">COM+ Config</item>
+<item id="ref-62">CSS AV Scheduler</item>
+<item id="ref-63">CSS_1630</item>
+<item id="ref-64">DataTransformationServices</item>
+<item id="ref-65">DbgProxy</item>
+<item id="ref-66">DiskQuota</item>
+<item id="ref-67">DrWatson</item>
+<item id="ref-68">DVP Report</item>
+<item id="ref-69">EDB</item>
+<item id="ref-70">ESE BACKUP</item>
+<item id="ref-71">ESE98</item>
+<item id="ref-72">ESENT</item>
+<item id="ref-73">EventSystem</item>
+<item id="ref-74">EvntAgnt</item>
+<item id="ref-75">EXODBPC</item>
+<item id="ref-76">File Deployment</item>
+<item id="ref-77">Folder Redirection</item>
+<item id="ref-78">FrontPage 4.0</item>
+<item id="ref-79">FtpCtrs</item>
+<item id="ref-80">HostMIBAgent</item>
+<item id="ref-81">hpmon</item>
+<item id="ref-82">HTTPEXT</item>
+<item id="ref-83">IExplore</item>
+<item id="ref-84">IISADMIN</item>
+<item id="ref-85">IISInfoCtrs</item>
+<item id="ref-86">IPSECPolicyStorage</item>
+<item id="ref-87">ITW</item>
+<item id="ref-88">Java VM</item>
+<item id="ref-89">LicenseService</item>
+<item id="ref-90">ListHost</item>
+<item id="ref-91">ListService</item>
+<item id="ref-92">LoadPerf</item>
+<item id="ref-93">Math Service</item>
+<item id="ref-94">MathService</item>
+<item id="ref-95">MDM</item>
+<item id="ref-96">Microsoft Development Environment</item>
+<item id="ref-97">Microsoft Search</item>
+<item id="ref-98">mnmsrvc</item>
+<item id="ref-99">MSDTC</item>
+<item id="ref-100">MSDTC Client</item>
+<item id="ref-101">MsiInstaller</item>
+<item id="ref-102">MSMQ</item>
+<item id="ref-103">MssCi</item>
+<item id="ref-104">MSSQLSERVER</item>
+<item id="ref-105">MSSQLServerADHelper</item>
+<item id="ref-106">ntbackup</item>
+<item id="ref-107">Ntbackup.ini</item>
+<item id="ref-108">NTFRSPerf</item>
+<item id="ref-109">Oakley</item>
+<item id="ref-110">Offline Files</item>
+<item id="ref-111">Perfctrs</item>
+<item id="ref-112">PerfDisk</item>
+<item id="ref-113">Perflib</item>
+<item id="ref-114">Perfmon</item>
+<item id="ref-115">PerfNet</item>
+<item id="ref-116">PerfOS</item>
+<item id="ref-117">PerfProc</item>
+<item id="ref-118">Phone Book Service</item>
+<item id="ref-119">PlugPlayManager</item>
+<item id="ref-120">SceCli</item>
+<item id="ref-121">SceSrv</item>
+<item id="ref-122">SclgNtfy</item>
+<item id="ref-123">Software Installation</item>
+<item id="ref-124">SpoolerCtrs</item>
+<item id="ref-125">SQLCTR</item>
+<item id="ref-126">SQLFTHNDLR</item>
+<item id="ref-127">SQLSERVERAGENT</item>
+<item id="ref-128">SQLServerProfiler</item>
+<item id="ref-129">SysmonLog</item>
+<item id="ref-130">Tlntsvr</item>
+<item id="ref-131">Userenv</item>
+<item id="ref-132">Userinit</item>
+<item id="ref-133">VBRuntime</item>
+<item id="ref-134">VBSDIDB</item>
+<item id="ref-135">Visual Studio Analyzer RPC bridge</item>
+<item id="ref-136">W3Ctrs</item>
+<item id="ref-137">Windows 3.1 Migration</item>
+<item id="ref-138">Winlogon</item>
+<item id="ref-139">WinMgmt</item>
+<item id="ref-140">WinsCtrs</item>
+<item id="ref-141">WSH</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-35" SOAP-ENC:arrayType="a4:SerializableRegistryKey[93]">
+<item href="#ref-142"/>
+<item href="#ref-143"/>
+<item href="#ref-144"/>
+<item href="#ref-145"/>
+<item href="#ref-146"/>
+<item href="#ref-147"/>
+<item href="#ref-148"/>
+<item href="#ref-149"/>
+<item href="#ref-150"/>
+<item href="#ref-151"/>
+<item href="#ref-152"/>
+<item href="#ref-153"/>
+<item href="#ref-154"/>
+<item href="#ref-155"/>
+<item href="#ref-156"/>
+<item href="#ref-157"/>
+<item href="#ref-158"/>
+<item href="#ref-159"/>
+<item href="#ref-160"/>
+<item href="#ref-161"/>
+<item href="#ref-162"/>
+<item href="#ref-163"/>
+<item href="#ref-164"/>
+<item href="#ref-165"/>
+<item href="#ref-166"/>
+<item href="#ref-167"/>
+<item href="#ref-168"/>
+<item href="#ref-169"/>
+<item href="#ref-170"/>
+<item href="#ref-171"/>
+<item href="#ref-172"/>
+<item href="#ref-173"/>
+<item href="#ref-174"/>
+<item href="#ref-175"/>
+<item href="#ref-176"/>
+<item href="#ref-177"/>
+<item href="#ref-178"/>
+<item href="#ref-179"/>
+<item href="#ref-180"/>
+<item href="#ref-181"/>
+<item href="#ref-182"/>
+<item href="#ref-183"/>
+<item href="#ref-184"/>
+<item href="#ref-185"/>
+<item href="#ref-186"/>
+<item href="#ref-187"/>
+<item href="#ref-188"/>
+<item href="#ref-189"/>
+<item href="#ref-190"/>
+<item href="#ref-191"/>
+<item href="#ref-192"/>
+<item href="#ref-193"/>
+<item href="#ref-194"/>
+<item href="#ref-195"/>
+<item href="#ref-196"/>
+<item href="#ref-197"/>
+<item href="#ref-198"/>
+<item href="#ref-199"/>
+<item href="#ref-200"/>
+<item href="#ref-201"/>
+<item href="#ref-202"/>
+<item href="#ref-203"/>
+<item href="#ref-204"/>
+<item href="#ref-205"/>
+<item href="#ref-206"/>
+<item href="#ref-207"/>
+<item href="#ref-208"/>
+<item href="#ref-209"/>
+<item href="#ref-210"/>
+<item href="#ref-211"/>
+<item href="#ref-212"/>
+<item href="#ref-213"/>
+<item href="#ref-214"/>
+<item href="#ref-215"/>
+<item href="#ref-216"/>
+<item href="#ref-217"/>
+<item href="#ref-218"/>
+<item href="#ref-219"/>
+<item href="#ref-220"/>
+<item href="#ref-221"/>
+<item href="#ref-222"/>
+<item href="#ref-223"/>
+<item href="#ref-224"/>
+<item href="#ref-225"/>
+<item href="#ref-226"/>
+<item href="#ref-227"/>
+<item href="#ref-228"/>
+<item href="#ref-229"/>
+<item href="#ref-230"/>
+<item href="#ref-231"/>
+<item href="#ref-232"/>
+<item href="#ref-233"/>
+<item href="#ref-234"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-48" SOAP-ENC:arrayType="xsd:string[93]">
+<item id="ref-235">ListService</item>
+<item id="ref-236">WSH</item>
+<item id="ref-237">WinsCtrs</item>
+<item id="ref-238">WinMgmt</item>
+<item id="ref-239">Winlogon</item>
+<item id="ref-240">Windows 3.1 Migration</item>
+<item id="ref-241">W3Ctrs</item>
+<item id="ref-242">Visual Studio Analyzer RPC bridge</item>
+<item id="ref-243">VBSDIDB</item>
+<item id="ref-244">VBRuntime</item>
+<item id="ref-245">Userinit</item>
+<item id="ref-246">Userenv</item>
+<item id="ref-247">Tlntsvr</item>
+<item id="ref-248">SysmonLog</item>
+<item id="ref-249">SQLServerProfiler</item>
+<item id="ref-250">SQLSERVERAGENT</item>
+<item id="ref-251">SQLFTHNDLR</item>
+<item id="ref-252">SQLCTR</item>
+<item id="ref-253">SpoolerCtrs</item>
+<item id="ref-254">Software Installation</item>
+<item id="ref-255">SclgNtfy</item>
+<item id="ref-256">SceSrv</item>
+<item id="ref-257">SceCli</item>
+<item id="ref-258">PlugPlayManager</item>
+<item id="ref-259">Phone Book Service</item>
+<item id="ref-260">PerfProc</item>
+<item id="ref-261">PerfOS</item>
+<item id="ref-262">PerfNet</item>
+<item id="ref-263">Perfmon</item>
+<item id="ref-264">Perflib</item>
+<item id="ref-265">PerfDisk</item>
+<item id="ref-266">Perfctrs</item>
+<item id="ref-267">Offline Files</item>
+<item id="ref-268">Oakley</item>
+<item id="ref-269">NTFRSPerf</item>
+<item id="ref-270">Ntbackup.ini</item>
+<item id="ref-271">ntbackup</item>
+<item id="ref-272">MSSQLServerADHelper</item>
+<item id="ref-273">MSSQLSERVER</item>
+<item id="ref-274">MssCi</item>
+<item id="ref-275">MSMQ</item>
+<item id="ref-276">MsiInstaller</item>
+<item id="ref-277">MSDTC Client</item>
+<item id="ref-278">MSDTC</item>
+<item id="ref-279">mnmsrvc</item>
+<item id="ref-280">Microsoft Search</item>
+<item id="ref-281">Microsoft Development Environment</item>
+<item id="ref-282">MDM</item>
+<item id="ref-283">MathService</item>
+<item id="ref-284">Math Service</item>
+<item id="ref-285">LoadPerf</item>
+<item id="ref-286">ListHost</item>
+<item id="ref-287">LicenseService</item>
+<item id="ref-288">Java VM</item>
+<item id="ref-289">ITW</item>
+<item id="ref-290">IPSECPolicyStorage</item>
+<item id="ref-291">IISInfoCtrs</item>
+<item id="ref-292">IISADMIN</item>
+<item id="ref-293">IExplore</item>
+<item id="ref-294">HTTPEXT</item>
+<item id="ref-295">hpmon</item>
+<item id="ref-296">HostMIBAgent</item>
+<item id="ref-297">FtpCtrs</item>
+<item id="ref-298">FrontPage 4.0</item>
+<item id="ref-299">Folder Redirection</item>
+<item id="ref-300">File Deployment</item>
+<item id="ref-301">EXODBPC</item>
+<item id="ref-302">EvntAgnt</item>
+<item id="ref-303">EventSystem</item>
+<item id="ref-304">ESENT</item>
+<item id="ref-305">ESE98</item>
+<item id="ref-306">ESE BACKUP</item>
+<item id="ref-307">EDB</item>
+<item id="ref-308">DVP Report</item>
+<item id="ref-309">DrWatson</item>
+<item id="ref-310">DiskQuota</item>
+<item id="ref-311">DbgProxy</item>
+<item id="ref-312">DataTransformationServices</item>
+<item id="ref-313">CSS_1630</item>
+<item id="ref-314">CSS AV Scheduler</item>
+<item id="ref-315">COM+ Config</item>
+<item id="ref-316">COM+</item>
+<item id="ref-317">Ci</item>
+<item id="ref-318">Chkdsk</item>
+<item id="ref-319">Automation Manager</item>
+<item id="ref-320">Autochk</item>
+<item id="ref-321">ASPX</item>
+<item id="ref-322">ASP.NET 1.0.2914.16</item>
+<item id="ref-323">Application Management</item>
+<item id="ref-324">APGTS</item>
+<item id="ref-325">Active Server Pages</item>
+<item id="ref-326">.NET Runtime</item>
+<item id="ref-327">Application</item>
+</SOAP-ENC:Array>
+<a4:SerializableRegistryKey id="ref-142">
+<ValueNames href="#ref-328"/>
+<Values href="#ref-329"/>
+<KeyNames href="#ref-330"/>
+<Keys href="#ref-331"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-143">
+<ValueNames href="#ref-332"/>
+<Values href="#ref-333"/>
+<KeyNames href="#ref-334"/>
+<Keys href="#ref-335"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-144">
+<ValueNames href="#ref-336"/>
+<Values href="#ref-337"/>
+<KeyNames href="#ref-338"/>
+<Keys href="#ref-339"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-145">
+<ValueNames href="#ref-340"/>
+<Values href="#ref-341"/>
+<KeyNames href="#ref-342"/>
+<Keys href="#ref-343"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-146">
+<ValueNames href="#ref-344"/>
+<Values href="#ref-345"/>
+<KeyNames href="#ref-346"/>
+<Keys href="#ref-347"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-147">
+<ValueNames href="#ref-348"/>
+<Values href="#ref-349"/>
+<KeyNames href="#ref-350"/>
+<Keys href="#ref-351"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-148">
+<ValueNames href="#ref-352"/>
+<Values href="#ref-353"/>
+<KeyNames href="#ref-354"/>
+<Keys href="#ref-355"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-149">
+<ValueNames href="#ref-356"/>
+<Values href="#ref-357"/>
+<KeyNames href="#ref-358"/>
+<Keys href="#ref-359"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-150">
+<ValueNames href="#ref-360"/>
+<Values href="#ref-361"/>
+<KeyNames href="#ref-362"/>
+<Keys href="#ref-363"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-151">
+<ValueNames href="#ref-364"/>
+<Values href="#ref-365"/>
+<KeyNames href="#ref-366"/>
+<Keys href="#ref-367"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-152">
+<ValueNames href="#ref-368"/>
+<Values href="#ref-369"/>
+<KeyNames href="#ref-370"/>
+<Keys href="#ref-371"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-153">
+<ValueNames href="#ref-372"/>
+<Values href="#ref-373"/>
+<KeyNames href="#ref-374"/>
+<Keys href="#ref-375"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-154">
+<ValueNames href="#ref-376"/>
+<Values href="#ref-377"/>
+<KeyNames href="#ref-378"/>
+<Keys href="#ref-379"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-155">
+<ValueNames href="#ref-380"/>
+<Values href="#ref-381"/>
+<KeyNames href="#ref-382"/>
+<Keys href="#ref-383"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-156">
+<ValueNames href="#ref-384"/>
+<Values href="#ref-385"/>
+<KeyNames href="#ref-386"/>
+<Keys href="#ref-387"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-157">
+<ValueNames href="#ref-388"/>
+<Values href="#ref-389"/>
+<KeyNames href="#ref-390"/>
+<Keys href="#ref-391"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-158">
+<ValueNames href="#ref-392"/>
+<Values href="#ref-393"/>
+<KeyNames href="#ref-394"/>
+<Keys href="#ref-395"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-159">
+<ValueNames href="#ref-396"/>
+<Values href="#ref-397"/>
+<KeyNames href="#ref-398"/>
+<Keys href="#ref-399"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-160">
+<ValueNames href="#ref-400"/>
+<Values href="#ref-401"/>
+<KeyNames href="#ref-402"/>
+<Keys href="#ref-403"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-161">
+<ValueNames href="#ref-404"/>
+<Values href="#ref-405"/>
+<KeyNames href="#ref-406"/>
+<Keys href="#ref-407"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-162">
+<ValueNames href="#ref-408"/>
+<Values href="#ref-409"/>
+<KeyNames href="#ref-410"/>
+<Keys href="#ref-411"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-163">
+<ValueNames href="#ref-412"/>
+<Values href="#ref-413"/>
+<KeyNames href="#ref-414"/>
+<Keys href="#ref-415"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-164">
+<ValueNames href="#ref-416"/>
+<Values href="#ref-417"/>
+<KeyNames href="#ref-418"/>
+<Keys href="#ref-419"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-165">
+<ValueNames href="#ref-420"/>
+<Values href="#ref-421"/>
+<KeyNames href="#ref-422"/>
+<Keys href="#ref-423"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-166">
+<ValueNames href="#ref-424"/>
+<Values href="#ref-425"/>
+<KeyNames href="#ref-426"/>
+<Keys href="#ref-427"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-167">
+<ValueNames href="#ref-428"/>
+<Values href="#ref-429"/>
+<KeyNames href="#ref-430"/>
+<Keys href="#ref-431"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-168">
+<ValueNames href="#ref-432"/>
+<Values href="#ref-433"/>
+<KeyNames href="#ref-434"/>
+<Keys href="#ref-435"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-169">
+<ValueNames href="#ref-436"/>
+<Values href="#ref-437"/>
+<KeyNames href="#ref-438"/>
+<Keys href="#ref-439"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-170">
+<ValueNames href="#ref-440"/>
+<Values href="#ref-441"/>
+<KeyNames href="#ref-442"/>
+<Keys href="#ref-443"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-171">
+<ValueNames href="#ref-444"/>
+<Values href="#ref-445"/>
+<KeyNames href="#ref-446"/>
+<Keys href="#ref-447"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-172">
+<ValueNames href="#ref-448"/>
+<Values href="#ref-449"/>
+<KeyNames href="#ref-450"/>
+<Keys href="#ref-451"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-173">
+<ValueNames href="#ref-452"/>
+<Values href="#ref-453"/>
+<KeyNames href="#ref-454"/>
+<Keys href="#ref-455"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-174">
+<ValueNames href="#ref-456"/>
+<Values href="#ref-457"/>
+<KeyNames href="#ref-458"/>
+<Keys href="#ref-459"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-175">
+<ValueNames href="#ref-460"/>
+<Values href="#ref-461"/>
+<KeyNames href="#ref-462"/>
+<Keys href="#ref-463"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-176">
+<ValueNames href="#ref-464"/>
+<Values href="#ref-465"/>
+<KeyNames href="#ref-466"/>
+<Keys href="#ref-467"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-177">
+<ValueNames href="#ref-468"/>
+<Values href="#ref-469"/>
+<KeyNames href="#ref-470"/>
+<Keys href="#ref-471"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-178">
+<ValueNames href="#ref-472"/>
+<Values href="#ref-473"/>
+<KeyNames href="#ref-474"/>
+<Keys href="#ref-475"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-179">
+<ValueNames href="#ref-476"/>
+<Values href="#ref-477"/>
+<KeyNames href="#ref-478"/>
+<Keys href="#ref-479"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-180">
+<ValueNames href="#ref-480"/>
+<Values href="#ref-481"/>
+<KeyNames href="#ref-482"/>
+<Keys href="#ref-483"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-181">
+<ValueNames href="#ref-484"/>
+<Values href="#ref-485"/>
+<KeyNames href="#ref-486"/>
+<Keys href="#ref-487"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-182">
+<ValueNames href="#ref-488"/>
+<Values href="#ref-489"/>
+<KeyNames href="#ref-490"/>
+<Keys href="#ref-491"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-183">
+<ValueNames href="#ref-492"/>
+<Values href="#ref-493"/>
+<KeyNames href="#ref-494"/>
+<Keys href="#ref-495"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-184">
+<ValueNames href="#ref-496"/>
+<Values href="#ref-497"/>
+<KeyNames href="#ref-498"/>
+<Keys href="#ref-499"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-185">
+<ValueNames href="#ref-500"/>
+<Values href="#ref-501"/>
+<KeyNames href="#ref-502"/>
+<Keys href="#ref-503"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-186">
+<ValueNames href="#ref-504"/>
+<Values href="#ref-505"/>
+<KeyNames href="#ref-506"/>
+<Keys href="#ref-507"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-187">
+<ValueNames href="#ref-508"/>
+<Values href="#ref-509"/>
+<KeyNames href="#ref-510"/>
+<Keys href="#ref-511"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-188">
+<ValueNames href="#ref-512"/>
+<Values href="#ref-513"/>
+<KeyNames href="#ref-514"/>
+<Keys href="#ref-515"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-189">
+<ValueNames href="#ref-516"/>
+<Values href="#ref-517"/>
+<KeyNames href="#ref-518"/>
+<Keys href="#ref-519"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-190">
+<ValueNames href="#ref-520"/>
+<Values href="#ref-521"/>
+<KeyNames href="#ref-522"/>
+<Keys href="#ref-523"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-191">
+<ValueNames href="#ref-524"/>
+<Values href="#ref-525"/>
+<KeyNames href="#ref-526"/>
+<Keys href="#ref-527"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-192">
+<ValueNames href="#ref-528"/>
+<Values href="#ref-529"/>
+<KeyNames href="#ref-530"/>
+<Keys href="#ref-531"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-193">
+<ValueNames href="#ref-532"/>
+<Values href="#ref-533"/>
+<KeyNames href="#ref-534"/>
+<Keys href="#ref-535"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-194">
+<ValueNames href="#ref-536"/>
+<Values href="#ref-537"/>
+<KeyNames href="#ref-538"/>
+<Keys href="#ref-539"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-195">
+<ValueNames href="#ref-540"/>
+<Values href="#ref-541"/>
+<KeyNames href="#ref-542"/>
+<Keys href="#ref-543"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-196">
+<ValueNames href="#ref-544"/>
+<Values href="#ref-545"/>
+<KeyNames href="#ref-546"/>
+<Keys href="#ref-547"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-197">
+<ValueNames href="#ref-548"/>
+<Values href="#ref-549"/>
+<KeyNames href="#ref-550"/>
+<Keys href="#ref-551"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-198">
+<ValueNames href="#ref-552"/>
+<Values href="#ref-553"/>
+<KeyNames href="#ref-554"/>
+<Keys href="#ref-555"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-199">
+<ValueNames href="#ref-556"/>
+<Values href="#ref-557"/>
+<KeyNames href="#ref-558"/>
+<Keys href="#ref-559"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-200">
+<ValueNames href="#ref-560"/>
+<Values href="#ref-561"/>
+<KeyNames href="#ref-562"/>
+<Keys href="#ref-563"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-201">
+<ValueNames href="#ref-564"/>
+<Values href="#ref-565"/>
+<KeyNames href="#ref-566"/>
+<Keys href="#ref-567"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-202">
+<ValueNames href="#ref-568"/>
+<Values href="#ref-569"/>
+<KeyNames href="#ref-570"/>
+<Keys href="#ref-571"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-203">
+<ValueNames href="#ref-572"/>
+<Values href="#ref-573"/>
+<KeyNames href="#ref-574"/>
+<Keys href="#ref-575"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-204">
+<ValueNames href="#ref-576"/>
+<Values href="#ref-577"/>
+<KeyNames href="#ref-578"/>
+<Keys href="#ref-579"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-205">
+<ValueNames href="#ref-580"/>
+<Values href="#ref-581"/>
+<KeyNames href="#ref-582"/>
+<Keys href="#ref-583"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-206">
+<ValueNames href="#ref-584"/>
+<Values href="#ref-585"/>
+<KeyNames href="#ref-586"/>
+<Keys href="#ref-587"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-207">
+<ValueNames href="#ref-588"/>
+<Values href="#ref-589"/>
+<KeyNames href="#ref-590"/>
+<Keys href="#ref-591"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-208">
+<ValueNames href="#ref-592"/>
+<Values href="#ref-593"/>
+<KeyNames href="#ref-594"/>
+<Keys href="#ref-595"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-209">
+<ValueNames href="#ref-596"/>
+<Values href="#ref-597"/>
+<KeyNames href="#ref-598"/>
+<Keys href="#ref-599"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-210">
+<ValueNames href="#ref-600"/>
+<Values href="#ref-601"/>
+<KeyNames href="#ref-602"/>
+<Keys href="#ref-603"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-211">
+<ValueNames href="#ref-604"/>
+<Values href="#ref-605"/>
+<KeyNames href="#ref-606"/>
+<Keys href="#ref-607"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-212">
+<ValueNames href="#ref-608"/>
+<Values href="#ref-609"/>
+<KeyNames href="#ref-610"/>
+<Keys href="#ref-611"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-213">
+<ValueNames href="#ref-612"/>
+<Values href="#ref-613"/>
+<KeyNames href="#ref-614"/>
+<Keys href="#ref-615"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-214">
+<ValueNames href="#ref-616"/>
+<Values href="#ref-617"/>
+<KeyNames href="#ref-618"/>
+<Keys href="#ref-619"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-215">
+<ValueNames href="#ref-620"/>
+<Values href="#ref-621"/>
+<KeyNames href="#ref-622"/>
+<Keys href="#ref-623"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-216">
+<ValueNames href="#ref-624"/>
+<Values href="#ref-625"/>
+<KeyNames href="#ref-626"/>
+<Keys href="#ref-627"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-217">
+<ValueNames href="#ref-628"/>
+<Values href="#ref-629"/>
+<KeyNames href="#ref-630"/>
+<Keys href="#ref-631"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-218">
+<ValueNames href="#ref-632"/>
+<Values href="#ref-633"/>
+<KeyNames href="#ref-634"/>
+<Keys href="#ref-635"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-219">
+<ValueNames href="#ref-636"/>
+<Values href="#ref-637"/>
+<KeyNames href="#ref-638"/>
+<Keys href="#ref-639"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-220">
+<ValueNames href="#ref-640"/>
+<Values href="#ref-641"/>
+<KeyNames href="#ref-642"/>
+<Keys href="#ref-643"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-221">
+<ValueNames href="#ref-644"/>
+<Values href="#ref-645"/>
+<KeyNames href="#ref-646"/>
+<Keys href="#ref-647"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-222">
+<ValueNames href="#ref-648"/>
+<Values href="#ref-649"/>
+<KeyNames href="#ref-650"/>
+<Keys href="#ref-651"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-223">
+<ValueNames href="#ref-652"/>
+<Values href="#ref-653"/>
+<KeyNames href="#ref-654"/>
+<Keys href="#ref-655"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-224">
+<ValueNames href="#ref-656"/>
+<Values href="#ref-657"/>
+<KeyNames href="#ref-658"/>
+<Keys href="#ref-659"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-225">
+<ValueNames href="#ref-660"/>
+<Values href="#ref-661"/>
+<KeyNames href="#ref-662"/>
+<Keys href="#ref-663"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-226">
+<ValueNames href="#ref-664"/>
+<Values href="#ref-665"/>
+<KeyNames href="#ref-666"/>
+<Keys href="#ref-667"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-227">
+<ValueNames href="#ref-668"/>
+<Values href="#ref-669"/>
+<KeyNames href="#ref-670"/>
+<Keys href="#ref-671"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-228">
+<ValueNames href="#ref-672"/>
+<Values href="#ref-673"/>
+<KeyNames href="#ref-674"/>
+<Keys href="#ref-675"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-229">
+<ValueNames href="#ref-676"/>
+<Values href="#ref-677"/>
+<KeyNames href="#ref-678"/>
+<Keys href="#ref-679"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-230">
+<ValueNames href="#ref-680"/>
+<Values href="#ref-681"/>
+<KeyNames href="#ref-682"/>
+<Keys href="#ref-683"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-231">
+<ValueNames href="#ref-684"/>
+<Values href="#ref-685"/>
+<KeyNames href="#ref-686"/>
+<Keys href="#ref-687"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-232">
+<ValueNames href="#ref-688"/>
+<Values href="#ref-689"/>
+<KeyNames href="#ref-690"/>
+<Keys href="#ref-691"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-233">
+<ValueNames href="#ref-692"/>
+<Values href="#ref-693"/>
+<KeyNames href="#ref-694"/>
+<Keys href="#ref-695"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-234">
+<ValueNames href="#ref-696"/>
+<Values href="#ref-697"/>
+<KeyNames href="#ref-698"/>
+<Keys href="#ref-699"/>
+</a4:SerializableRegistryKey>
+<SOAP-ENC:Array id="ref-328" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-700">TypesSupported</item>
+<item id="ref-701">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-329" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-702" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\mscorrc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-330" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-331" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-332" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-703">EventMessageFile</item>
+<item id="ref-704">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-333" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-705" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\ASP.DLL</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-334" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-335" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-336" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-706">EventMessageFile</item>
+<item id="ref-707">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-337" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-708" xsi:type="SOAP-ENC:string">C:\WINNT\help\TShoot.ocx</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-338" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-339" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-340" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-709">CategoryCount</item>
+<item id="ref-710">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-341" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-711" xsi:type="SOAP-ENC:string">C:\WINNT\system32\eventlog.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-342" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-343" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-344" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-712">EventMessageFile</item>
+<item id="ref-713">ParameterMessageFile</item>
+<item id="ref-714">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-345" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-715" xsi:type="SOAP-ENC:string">C:\WINNT\System32\appmgmts.dll</item>
+<item id="ref-716" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-346" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-347" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-348" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-717">TypesSupported</item>
+<item id="ref-718">EventMessageFile</item>
+<item id="ref-719">CategoryCount</item>
+<item id="ref-720">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-349" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-721" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\aspnet_rc.dll</item>
+<item xsi:type="xsd:int">2</item>
+<item id="ref-722" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\aspnet_rc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-350" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-351" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-352" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-353" SOAP-ENC:arrayType="xsd:ur-type[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-354" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-355" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-356" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-723">EventMessageFile</item>
+<item id="ref-724">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-357" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-725" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winlogon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-358" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-359" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-360" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-726">EventMessageFile</item>
+<item id="ref-727">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-361" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-728" xsi:type="SOAP-ENC:string">C:\WINNT\System32\Autmgr32.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-362" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-363" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-364" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-729">EventMessageFile</item>
+<item id="ref-730">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-365" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-731" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ulib.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-366" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-367" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-368" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-732">EventMessageFile</item>
+<item id="ref-733">CategoryMessageFile</item>
+<item id="ref-734">TypesSupported</item>
+<item id="ref-735">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-369" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-736" xsi:type="SOAP-ENC:string">C:\WINNT\System32\query.dll</item>
+<item id="ref-737" xsi:type="SOAP-ENC:string">C:\WINNT\System32\query.dll</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">1</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-370" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-371" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-372" SOAP-ENC:arrayType="xsd:string[5]">
+<item id="ref-738">EventMessageFile</item>
+<item id="ref-739">CategoryMessageFile</item>
+<item id="ref-740">ParameterMessageFile</item>
+<item id="ref-741">TypeSupported</item>
+<item id="ref-742">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-373" SOAP-ENC:arrayType="xsd:ur-type[5]">
+<item id="ref-743" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item id="ref-744" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item id="ref-745" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">20</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-374" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-375" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-376" SOAP-ENC:arrayType="xsd:string[6]">
+<item id="ref-746"></item>
+<item id="ref-747">ConfigCategoryCount</item>
+<item id="ref-748">CategoryMessageFile</item>
+<item id="ref-749">EventMessageFile</item>
+<item id="ref-750">ParameterMessageFile</item>
+<item id="ref-751">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-377" SOAP-ENC:arrayType="xsd:ur-type[6]">
+<item id="ref-752" xsi:type="SOAP-ENC:string"></item>
+<item xsi:type="xsd:int">4</item>
+<item id="ref-753" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item id="ref-754" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item id="ref-755" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-378" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-379" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-380" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-756">TypesSupported</item>
+<item id="ref-757">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-381" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-758" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Scanner\csavslng.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-382" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-383" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-384" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-759">TypesSupported</item>
+<item id="ref-760">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-385" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-761" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Communication\css_1632.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-386" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-387" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-388" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-762">EventMessageFile</item>
+<item id="ref-763">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-389" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-764" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\dtspkg.RLL</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-390" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-391" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-392" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-765">TypesSupported</item>
+<item id="ref-766">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-393" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-767" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio.NET\Common7\Packages\Debugger\dbgproxy.exe</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-394" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-395" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-396" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-768">EventMessageFile</item>
+<item id="ref-769">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-397" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-770" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\dskquota.dll</item>
+<item id="ref-771" xsi:type="SOAP-ENC:string">0x00000007</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-398" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-399" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-400" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-772">EventMessageFile</item>
+<item id="ref-773">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-401" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-774" xsi:type="SOAP-ENC:string">C:\WINNT\System32\drwtsn32.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-402" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-403" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-404" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-775">TypesSupported</item>
+<item id="ref-776">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-405" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-777" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Scanner\dvprptl.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-406" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-407" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-408" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-778">EventMessageFile</item>
+<item id="ref-779">CategoryMessageFile</item>
+<item id="ref-780">CategoryCount</item>
+<item id="ref-781">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-409" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-782" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\edb.dll</item>
+<item id="ref-783" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\edb.dll</item>
+<item xsi:type="xsd:int">6</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-410" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-411" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-412" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-784">EventMessageFile</item>
+<item id="ref-785">CategoryMessageFile</item>
+<item id="ref-786">CategoryCount</item>
+<item id="ref-787">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-413" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-788" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\eseback2.dll</item>
+<item id="ref-789" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\eseback2.dll</item>
+<item xsi:type="xsd:int">5</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-414" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-415" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-416" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-790">EventMessageFile</item>
+<item id="ref-791">CategoryMessageFile</item>
+<item id="ref-792">CategoryCount</item>
+<item id="ref-793">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-417" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-794" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\ESE.dll</item>
+<item id="ref-795" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\ESE.dll</item>
+<item xsi:type="xsd:int">15</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-418" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-419" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-420" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-796">EventMessageFile</item>
+<item id="ref-797">CategoryMessageFile</item>
+<item id="ref-798">CategoryCount</item>
+<item id="ref-799">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-421" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-800" xsi:type="SOAP-ENC:string">C:\WINNT\System32\esent.dll</item>
+<item id="ref-801" xsi:type="SOAP-ENC:string">C:\WINNT\System32\esent.dll</item>
+<item xsi:type="xsd:int">15</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-422" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-423" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-424" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-802">CategoryCount</item>
+<item id="ref-803">TypesSupported</item>
+<item id="ref-804">CategoryMessageFile</item>
+<item id="ref-805">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-425" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">6</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-806" xsi:type="SOAP-ENC:string">C:\WINNT\System32\es.dll</item>
+<item id="ref-807" xsi:type="SOAP-ENC:string">C:\WINNT\System32\es.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-426" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-427" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-428" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-808">EventMessageFile</item>
+<item id="ref-809">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-429" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-810" xsi:type="SOAP-ENC:string">C:\WINNT\System32\evntagnt.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-430" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-431" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-432" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-811">EventMessageFile</item>
+<item id="ref-812">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-433" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-813" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\exodbpc.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-434" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-435" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-436" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-814">EventMessageFile</item>
+<item id="ref-815">ParameterMessageFile</item>
+<item id="ref-816">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-437" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-817" xsi:type="SOAP-ENC:string">C:\WINNT\System32\fdeploy.dll</item>
+<item id="ref-818" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-438" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-439" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-440" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-819">EventMessageFile</item>
+<item id="ref-820">ParameterMessageFile</item>
+<item id="ref-821">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-441" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-822" xsi:type="SOAP-ENC:string">C:\WINNT\System32\fdeploy.dll</item>
+<item id="ref-823" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-442" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-443" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-444" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-824">EventMessageFile</item>
+<item id="ref-825">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-445" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-826" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\40\bin\fp4Autl.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-446" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-447" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-448" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-827">EventMessageFile</item>
+<item id="ref-828">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-449" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-829" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ftpctrs2.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-450" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-451" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-452" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-830">EventMessageFile</item>
+<item id="ref-831">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-453" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-832" xsi:type="SOAP-ENC:string">C:\WINNT\System32\hostmib.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-454" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-455" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-456" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-833">EventMessageFile</item>
+<item id="ref-834">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-457" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-835" xsi:type="SOAP-ENC:string">C:\WINNT\System32\hpmon.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-458" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-459" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-460" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-836">EventMessageFile</item>
+<item id="ref-837">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-461" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-838" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\httpext.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-462" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-463" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-464" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-839">EventMessageFile</item>
+<item id="ref-840">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-465" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-841" xsi:type="SOAP-ENC:string">C:\Program Files\Internet Explorer\DW.EXE</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-466" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-467" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-468" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-842">EventMessageFile</item>
+<item id="ref-843">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-469" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-844" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\svcext.dll</item>
+<item xsi:type="xsd:int">15</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-470" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-471" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-472" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-845">EventMessageFile</item>
+<item id="ref-846">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-473" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-847" xsi:type="SOAP-ENC:string">C:\WINNT\System32\infoctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-474" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-475" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-476" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-848">EventMessageFile</item>
+<item id="ref-849">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-477" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-850" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\polstore.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-478" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-479" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-480" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-851">EventMessageFile</item>
+<item id="ref-852">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-481" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-853" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-482" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-483" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-484" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-854">EventMessageFile</item>
+<item id="ref-855">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-485" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-856" xsi:type="SOAP-ENC:string">C:\WINNT\system32\vmhelper.dll</item>
+<item href="#ref-857"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-486" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-487" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-488" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-858">TypesSupported</item>
+<item id="ref-859">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-489" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-860" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\llsrpc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-490" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-491" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-492" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-861">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-493" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-862" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-494" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-495" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-496" SOAP-ENC:arrayType="xsd:string[8]">
+<item id="ref-863">DisplayNameFile</item>
+<item id="ref-864">DisplayNameID</item>
+<item id="ref-865">File</item>
+<item id="ref-866">MaxSize</item>
+<item id="ref-867">PrimaryModule</item>
+<item id="ref-868">Retention</item>
+<item id="ref-869"></item>
+<item id="ref-870">Sources</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-497" SOAP-ENC:arrayType="xsd:ur-type[8]">
+<item id="ref-871" xsi:type="SOAP-ENC:string">C:\WINNT\system32\els.dll</item>
+<item xsi:type="xsd:int">256</item>
+<item id="ref-872" xsi:type="SOAP-ENC:string">C:\WINNT\system32\config\AppEvent.Evt</item>
+<item xsi:type="xsd:int">524288</item>
+<item id="ref-873" xsi:type="SOAP-ENC:string">Application</item>
+<item xsi:type="xsd:int">604800</item>
+<item id="ref-874" xsi:type="SOAP-ENC:string">mnmsrvc</item>
+<item href="#ref-875"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-498" SOAP-ENC:arrayType="xsd:string[93]">
+<item id="ref-876">.NET Runtime</item>
+<item id="ref-877">Active Server Pages</item>
+<item id="ref-878">APGTS</item>
+<item id="ref-879">Application</item>
+<item id="ref-880">Application Management</item>
+<item id="ref-881">ASP.NET 1.0.2914.16</item>
+<item id="ref-882">ASPX</item>
+<item id="ref-883">Autochk</item>
+<item id="ref-884">Automation Manager</item>
+<item id="ref-885">Chkdsk</item>
+<item id="ref-886">Ci</item>
+<item id="ref-887">COM+</item>
+<item id="ref-888">COM+ Config</item>
+<item id="ref-889">CSS AV Scheduler</item>
+<item id="ref-890">CSS_1630</item>
+<item id="ref-891">DataTransformationServices</item>
+<item id="ref-892">DbgProxy</item>
+<item id="ref-893">DiskQuota</item>
+<item id="ref-894">DrWatson</item>
+<item id="ref-895">DVP Report</item>
+<item id="ref-896">EDB</item>
+<item id="ref-897">ESE BACKUP</item>
+<item id="ref-898">ESE98</item>
+<item id="ref-899">ESENT</item>
+<item id="ref-900">EventSystem</item>
+<item id="ref-901">EvntAgnt</item>
+<item id="ref-902">EXODBPC</item>
+<item id="ref-903">File Deployment</item>
+<item id="ref-904">Folder Redirection</item>
+<item id="ref-905">FrontPage 4.0</item>
+<item id="ref-906">FtpCtrs</item>
+<item id="ref-907">HostMIBAgent</item>
+<item id="ref-908">hpmon</item>
+<item id="ref-909">HTTPEXT</item>
+<item id="ref-910">IExplore</item>
+<item id="ref-911">IISADMIN</item>
+<item id="ref-912">IISInfoCtrs</item>
+<item id="ref-913">IPSECPolicyStorage</item>
+<item id="ref-914">ITW</item>
+<item id="ref-915">Java VM</item>
+<item id="ref-916">LicenseService</item>
+<item id="ref-917">ListHost</item>
+<item id="ref-918">ListService</item>
+<item id="ref-919">LoadPerf</item>
+<item id="ref-920">Math Service</item>
+<item id="ref-921">MathService</item>
+<item id="ref-922">MDM</item>
+<item id="ref-923">Microsoft Development Environment</item>
+<item id="ref-924">Microsoft Search</item>
+<item id="ref-925">mnmsrvc</item>
+<item id="ref-926">MSDTC</item>
+<item id="ref-927">MSDTC Client</item>
+<item id="ref-928">MsiInstaller</item>
+<item id="ref-929">MSMQ</item>
+<item id="ref-930">MssCi</item>
+<item id="ref-931">MSSQLSERVER</item>
+<item id="ref-932">MSSQLServerADHelper</item>
+<item id="ref-933">ntbackup</item>
+<item id="ref-934">Ntbackup.ini</item>
+<item id="ref-935">NTFRSPerf</item>
+<item id="ref-936">Oakley</item>
+<item id="ref-937">Offline Files</item>
+<item id="ref-938">Perfctrs</item>
+<item id="ref-939">PerfDisk</item>
+<item id="ref-940">Perflib</item>
+<item id="ref-941">Perfmon</item>
+<item id="ref-942">PerfNet</item>
+<item id="ref-943">PerfOS</item>
+<item id="ref-944">PerfProc</item>
+<item id="ref-945">Phone Book Service</item>
+<item id="ref-946">PlugPlayManager</item>
+<item id="ref-947">SceCli</item>
+<item id="ref-948">SceSrv</item>
+<item id="ref-949">SclgNtfy</item>
+<item id="ref-950">Software Installation</item>
+<item id="ref-951">SpoolerCtrs</item>
+<item id="ref-952">SQLCTR</item>
+<item id="ref-953">SQLFTHNDLR</item>
+<item id="ref-954">SQLSERVERAGENT</item>
+<item id="ref-955">SQLServerProfiler</item>
+<item id="ref-956">SysmonLog</item>
+<item id="ref-957">Tlntsvr</item>
+<item id="ref-958">Userenv</item>
+<item id="ref-959">Userinit</item>
+<item id="ref-960">VBRuntime</item>
+<item id="ref-961">VBSDIDB</item>
+<item id="ref-962">Visual Studio Analyzer RPC bridge</item>
+<item id="ref-963">W3Ctrs</item>
+<item id="ref-964">Windows 3.1 Migration</item>
+<item id="ref-965">Winlogon</item>
+<item id="ref-966">WinMgmt</item>
+<item id="ref-967">WinsCtrs</item>
+<item id="ref-968">WSH</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-499" SOAP-ENC:arrayType="a4:SerializableRegistryKey[93]">
+<item href="#ref-969"/>
+<item href="#ref-970"/>
+<item href="#ref-971"/>
+<item href="#ref-972"/>
+<item href="#ref-973"/>
+<item href="#ref-974"/>
+<item href="#ref-975"/>
+<item href="#ref-976"/>
+<item href="#ref-977"/>
+<item href="#ref-978"/>
+<item href="#ref-979"/>
+<item href="#ref-980"/>
+<item href="#ref-981"/>
+<item href="#ref-982"/>
+<item href="#ref-983"/>
+<item href="#ref-984"/>
+<item href="#ref-985"/>
+<item href="#ref-986"/>
+<item href="#ref-987"/>
+<item href="#ref-988"/>
+<item href="#ref-989"/>
+<item href="#ref-990"/>
+<item href="#ref-991"/>
+<item href="#ref-992"/>
+<item href="#ref-993"/>
+<item href="#ref-994"/>
+<item href="#ref-995"/>
+<item href="#ref-996"/>
+<item href="#ref-997"/>
+<item href="#ref-998"/>
+<item href="#ref-999"/>
+<item href="#ref-1000"/>
+<item href="#ref-1001"/>
+<item href="#ref-1002"/>
+<item href="#ref-1003"/>
+<item href="#ref-1004"/>
+<item href="#ref-1005"/>
+<item href="#ref-1006"/>
+<item href="#ref-1007"/>
+<item href="#ref-1008"/>
+<item href="#ref-1009"/>
+<item href="#ref-1010"/>
+<item href="#ref-1011"/>
+<item href="#ref-1012"/>
+<item href="#ref-1013"/>
+<item href="#ref-1014"/>
+<item href="#ref-1015"/>
+<item href="#ref-1016"/>
+<item href="#ref-1017"/>
+<item href="#ref-1018"/>
+<item href="#ref-1019"/>
+<item href="#ref-1020"/>
+<item href="#ref-1021"/>
+<item href="#ref-1022"/>
+<item href="#ref-1023"/>
+<item href="#ref-1024"/>
+<item href="#ref-1025"/>
+<item href="#ref-1026"/>
+<item href="#ref-1027"/>
+<item href="#ref-1028"/>
+<item href="#ref-1029"/>
+<item href="#ref-1030"/>
+<item href="#ref-1031"/>
+<item href="#ref-1032"/>
+<item href="#ref-1033"/>
+<item href="#ref-1034"/>
+<item href="#ref-1035"/>
+<item href="#ref-1036"/>
+<item href="#ref-1037"/>
+<item href="#ref-1038"/>
+<item href="#ref-1039"/>
+<item href="#ref-1040"/>
+<item href="#ref-1041"/>
+<item href="#ref-1042"/>
+<item href="#ref-1043"/>
+<item href="#ref-1044"/>
+<item href="#ref-1045"/>
+<item href="#ref-1046"/>
+<item href="#ref-1047"/>
+<item href="#ref-1048"/>
+<item href="#ref-1049"/>
+<item href="#ref-1050"/>
+<item href="#ref-1051"/>
+<item href="#ref-1052"/>
+<item href="#ref-1053"/>
+<item href="#ref-1054"/>
+<item href="#ref-1055"/>
+<item href="#ref-1056"/>
+<item href="#ref-1057"/>
+<item href="#ref-1058"/>
+<item href="#ref-1059"/>
+<item href="#ref-1060"/>
+<item href="#ref-1061"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-500" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1062">EventMessageFile</item>
+<item id="ref-1063">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-501" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1064" xsi:type="SOAP-ENC:string">C:\WINNT\System32\loadperf.dll;C:\WINNT\System32\sp2res.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-502" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-503" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-504" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1065">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-505" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1066" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-506" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-507" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-508" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1067">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-509" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1068" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-510" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-511" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-512" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1069">EventMessageFile</item>
+<item id="ref-1070">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-513" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1071" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Microsoft Shared\VS7Debug\mdm.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-514" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-515" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-516" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1072">TypesSupported</item>
+<item id="ref-1073">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-517" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1074" xsi:type="SOAP-ENC:string">G:\Program Files\Microsoft Visual Studio.NET\Common7\IDE\DW.EXE</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-518" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-519" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-520" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1075">EventMessageFile</item>
+<item id="ref-1076">CategoryMessageFile</item>
+<item id="ref-1077">CategoryCount</item>
+<item id="ref-1078">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-521" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1079" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\mssmsg.dll</item>
+<item id="ref-1080" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\mssmsg.dll</item>
+<item xsi:type="xsd:int">4</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-522" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-523" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-524" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1081">EventMessageFile</item>
+<item id="ref-1082">TypeSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-525" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1083" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\nmevtmsg.dll</item>
+<item href="#ref-1084"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-526" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-527" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-528" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1085">EventMessageFile</item>
+<item id="ref-1086">TypesSupported</item>
+<item id="ref-1087">CategoryMessageFile</item>
+<item id="ref-1088">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-529" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1089" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1090" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">18</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-530" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-531" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-532" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1091">EventMessageFile</item>
+<item id="ref-1092">TypesSupported</item>
+<item id="ref-1093">CategoryMessageFile</item>
+<item id="ref-1094">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-533" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1095" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1096" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">18</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-534" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-535" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-536" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1097">EventMessageFile</item>
+<item id="ref-1098">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-537" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1099" xsi:type="SOAP-ENC:string">C:\WINNT\System32\msi.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-538" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-539" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-540" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1100">EventMessageFile</item>
+<item id="ref-1101">CategoryMessageFile</item>
+<item id="ref-1102">CategoryCount</item>
+<item id="ref-1103">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-541" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1104" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MQUtil.dll</item>
+<item id="ref-1105" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MQUtil.dll</item>
+<item xsi:type="xsd:int">2</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-542" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-543" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-544" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1106">EventMessageFile</item>
+<item id="ref-1107">CategoryMessageFile</item>
+<item id="ref-1108">CategoryCount</item>
+<item id="ref-1109">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-545" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1110" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\tquery.dll</item>
+<item id="ref-1111" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\tquery.dll</item>
+<item xsi:type="xsd:int">1</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-546" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-547" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-548" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1112">CategoryCount</item>
+<item id="ref-1113">TypesSupported</item>
+<item id="ref-1114">EventMessageFile</item>
+<item id="ref-1115">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-549" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">8</item>
+<item xsi:type="xsd:int">255</item>
+<item id="ref-1116" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+<item id="ref-1117" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-550" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-551" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-552" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1118">EventMessageFile</item>
+<item id="ref-1119">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-553" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1120" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqladevn.rll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-554" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-555" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-556" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1121">EventMessageFile</item>
+<item id="ref-1122">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-557" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1123" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ntbackup.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-558" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-559" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-560" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1124">EventMessageFile</item>
+<item id="ref-1125">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-561" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1126" xsi:type="SOAP-ENC:string">C:\WINNT\system32\ntbackup.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-562" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-563" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-564" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1127">EventMessageFile</item>
+<item id="ref-1128">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-565" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1129" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ntfrsres.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-566" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-567" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-568" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1130">EventMessageFile</item>
+<item id="ref-1131">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-569" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1132" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\oakley.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-570" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-571" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-572" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1133">EventMessageFile</item>
+<item id="ref-1134">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-573" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1135" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\cscui.dll</item>
+<item id="ref-1136" xsi:type="SOAP-ENC:string">0x00000007</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-574" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-575" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-576" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1137">EventMessageFile</item>
+<item id="ref-1138">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-577" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1139" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-578" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-579" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-580" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1140">EventMessageFile</item>
+<item id="ref-1141">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-581" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1142" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfdisk.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-582" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-583" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-584" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1143">EventMessageFile</item>
+<item id="ref-1144">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-585" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1145" xsi:type="SOAP-ENC:string">C:\WINNT\System32\prflbmsg.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-586" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-587" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-588" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1146">EventMessageFile</item>
+<item id="ref-1147">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-589" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1148" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfmon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-590" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-591" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-592" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1149">EventMessageFile</item>
+<item id="ref-1150">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-593" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1151" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfnet.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-594" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-595" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-596" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1152">EventMessageFile</item>
+<item id="ref-1153">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-597" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1154" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfOS.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-598" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-599" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-600" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1155">EventMessageFile</item>
+<item id="ref-1156">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-601" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1157" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfproc.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-602" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-603" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-604" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1158">TypesSupported</item>
+<item id="ref-1159">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-605" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1160" xsi:type="SOAP-ENC:string">C:\Program Files\Phone Book Service\Bin\pbsvrmsg.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-606" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-607" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-608" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1161">EventMessageFile</item>
+<item id="ref-1162">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-609" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1163" xsi:type="SOAP-ENC:string">C:\WINNT\System32\umpnpmgr.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-610" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-611" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-612" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1164">EventMessageFile</item>
+<item id="ref-1165">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-613" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1166" xsi:type="SOAP-ENC:string">C:\WINNT\System32\scecli.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-614" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-615" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-616" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1167">EventMessageFile</item>
+<item id="ref-1168">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-617" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1169" xsi:type="SOAP-ENC:string">C:\WINNT\System32\scesrv.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-618" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-619" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-620" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1170">EventMessageFile</item>
+<item id="ref-1171">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-621" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1172" xsi:type="SOAP-ENC:string">C:\WINNT\System32\sclgntfy.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-622" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-623" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-624" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1173">EventMessageFile</item>
+<item id="ref-1174">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-625" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1175" xsi:type="SOAP-ENC:string">C:\WINNT\System32\appmgr.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-626" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-627" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-628" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1176">EventMessageFile</item>
+<item id="ref-1177">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-629" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1178" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winspool.drv</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-630" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-631" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-632" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1179">TypesSupported</item>
+<item id="ref-1180">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-633" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1181" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-634" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-635" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-636" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1182">EventMessageFile</item>
+<item id="ref-1183">CategoryMessageFile</item>
+<item id="ref-1184">CategoryCount</item>
+<item id="ref-1185">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-637" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1186" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\COM\sqlfth75.dll</item>
+<item id="ref-1187" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\COM\sqlfth75.dll</item>
+<item xsi:type="xsd:int">0</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-638" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-639" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-640" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1188">CategoryCount</item>
+<item id="ref-1189">TypesSupported</item>
+<item id="ref-1190">EventMessageFile</item>
+<item id="ref-1191">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-641" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">4</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1192" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\SQLAGENT.DLL</item>
+<item id="ref-1193" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\SQLAGENT.DLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-642" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-643" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-644" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1194">EventMessageFile</item>
+<item id="ref-1195">CategoryMessageFile</item>
+<item id="ref-1196">TypesSupported</item>
+<item id="ref-1197">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-645" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1198" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\binn\COMNEVNT.DLL</item>
+<item id="ref-1199" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\binn\COMNEVNT.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">8</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-646" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-647" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-648" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1200">EventMessageFile</item>
+<item id="ref-1201">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-649" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1202" xsi:type="SOAP-ENC:string">C:\WINNT\System32\smlogsvc.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-650" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-651" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-652" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1203">EventMessageFile</item>
+<item id="ref-1204">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-653" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1205" xsi:type="SOAP-ENC:string">C:\WINNT\System32\tlntsvr.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-654" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-655" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-656" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1206">EventMessageFile</item>
+<item id="ref-1207">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-657" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1208" xsi:type="SOAP-ENC:string">C:\WINNT\System32\userenv.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-658" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-659" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-660" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1209">EventMessageFile</item>
+<item id="ref-1210">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-661" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1211" xsi:type="SOAP-ENC:string">C:\WINNT\System32\userinit.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-662" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-663" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-664" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1212">EventMessageFile</item>
+<item id="ref-1213">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-665" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1214" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSVBVM60.DLL</item>
+<item xsi:type="xsd:int">4</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-666" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-667" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-668" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1215">EventMessageFile</item>
+<item id="ref-1216">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-669" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1217" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio\VB98\Tsql\vbsdidb.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-670" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-671" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-672" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1218">EventMessageFile</item>
+<item id="ref-1219">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-673" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1220" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio.NET\Common7\Tools\Analyzer\varpc.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-674" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-675" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-676" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1221">EventMessageFile</item>
+<item id="ref-1222">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-677" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1223" xsi:type="SOAP-ENC:string">C:\WINNT\System32\w3ctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-678" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-679" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-680" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1224">EventMessageFile</item>
+<item id="ref-1225">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-681" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1226" xsi:type="SOAP-ENC:string">C:\WINNT\System32\advapi32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-682" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-683" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-684" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1227">EventMessageFile</item>
+<item id="ref-1228">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-685" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1229" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winlogon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-686" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-687" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-688" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1230">EventMessageFile</item>
+<item id="ref-1231">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-689" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1232" xsi:type="SOAP-ENC:string">C:\WINNT\System32\WBEM\WinMgmtR.dll</item>
+<item href="#ref-1233"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-690" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-691" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-692" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1234">EventMessageFile</item>
+<item id="ref-1235">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-693" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1236" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winsevnt.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-694" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-695" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-696" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1237">EventMessageFile</item>
+<item id="ref-1238">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-697" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1239" xsi:type="SOAP-ENC:string">C:\WINNT\System32\wshext.dll</item>
+<item xsi:type="xsd:int">31</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-698" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-699" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-857" xsi:type="SOAP-ENC:Base64">BwAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-875" SOAP-ENC:arrayType="xsd:string[93]">
+<item id="ref-1240">ListService</item>
+<item id="ref-1241">WSH</item>
+<item id="ref-1242">WinsCtrs</item>
+<item id="ref-1243">WinMgmt</item>
+<item id="ref-1244">Winlogon</item>
+<item id="ref-1245">Windows 3.1 Migration</item>
+<item id="ref-1246">W3Ctrs</item>
+<item id="ref-1247">Visual Studio Analyzer RPC bridge</item>
+<item id="ref-1248">VBSDIDB</item>
+<item id="ref-1249">VBRuntime</item>
+<item id="ref-1250">Userinit</item>
+<item id="ref-1251">Userenv</item>
+<item id="ref-1252">Tlntsvr</item>
+<item id="ref-1253">SysmonLog</item>
+<item id="ref-1254">SQLServerProfiler</item>
+<item id="ref-1255">SQLSERVERAGENT</item>
+<item id="ref-1256">SQLFTHNDLR</item>
+<item id="ref-1257">SQLCTR</item>
+<item id="ref-1258">SpoolerCtrs</item>
+<item id="ref-1259">Software Installation</item>
+<item id="ref-1260">SclgNtfy</item>
+<item id="ref-1261">SceSrv</item>
+<item id="ref-1262">SceCli</item>
+<item id="ref-1263">PlugPlayManager</item>
+<item id="ref-1264">Phone Book Service</item>
+<item id="ref-1265">PerfProc</item>
+<item id="ref-1266">PerfOS</item>
+<item id="ref-1267">PerfNet</item>
+<item id="ref-1268">Perfmon</item>
+<item id="ref-1269">Perflib</item>
+<item id="ref-1270">PerfDisk</item>
+<item id="ref-1271">Perfctrs</item>
+<item id="ref-1272">Offline Files</item>
+<item id="ref-1273">Oakley</item>
+<item id="ref-1274">NTFRSPerf</item>
+<item id="ref-1275">Ntbackup.ini</item>
+<item id="ref-1276">ntbackup</item>
+<item id="ref-1277">MSSQLServerADHelper</item>
+<item id="ref-1278">MSSQLSERVER</item>
+<item id="ref-1279">MssCi</item>
+<item id="ref-1280">MSMQ</item>
+<item id="ref-1281">MsiInstaller</item>
+<item id="ref-1282">MSDTC Client</item>
+<item id="ref-1283">MSDTC</item>
+<item id="ref-1284">mnmsrvc</item>
+<item id="ref-1285">Microsoft Search</item>
+<item id="ref-1286">Microsoft Development Environment</item>
+<item id="ref-1287">MDM</item>
+<item id="ref-1288">MathService</item>
+<item id="ref-1289">Math Service</item>
+<item id="ref-1290">LoadPerf</item>
+<item id="ref-1291">ListHost</item>
+<item id="ref-1292">LicenseService</item>
+<item id="ref-1293">Java VM</item>
+<item id="ref-1294">ITW</item>
+<item id="ref-1295">IPSECPolicyStorage</item>
+<item id="ref-1296">IISInfoCtrs</item>
+<item id="ref-1297">IISADMIN</item>
+<item id="ref-1298">IExplore</item>
+<item id="ref-1299">HTTPEXT</item>
+<item id="ref-1300">hpmon</item>
+<item id="ref-1301">HostMIBAgent</item>
+<item id="ref-1302">FtpCtrs</item>
+<item id="ref-1303">FrontPage 4.0</item>
+<item id="ref-1304">Folder Redirection</item>
+<item id="ref-1305">File Deployment</item>
+<item id="ref-1306">EXODBPC</item>
+<item id="ref-1307">EvntAgnt</item>
+<item id="ref-1308">EventSystem</item>
+<item id="ref-1309">ESENT</item>
+<item id="ref-1310">ESE98</item>
+<item id="ref-1311">ESE BACKUP</item>
+<item id="ref-1312">EDB</item>
+<item id="ref-1313">DVP Report</item>
+<item id="ref-1314">DrWatson</item>
+<item id="ref-1315">DiskQuota</item>
+<item id="ref-1316">DbgProxy</item>
+<item id="ref-1317">DataTransformationServices</item>
+<item id="ref-1318">CSS_1630</item>
+<item id="ref-1319">CSS AV Scheduler</item>
+<item id="ref-1320">COM+ Config</item>
+<item id="ref-1321">COM+</item>
+<item id="ref-1322">Ci</item>
+<item id="ref-1323">Chkdsk</item>
+<item id="ref-1324">Automation Manager</item>
+<item id="ref-1325">Autochk</item>
+<item id="ref-1326">ASPX</item>
+<item id="ref-1327">ASP.NET 1.0.2914.16</item>
+<item id="ref-1328">Application Management</item>
+<item id="ref-1329">APGTS</item>
+<item id="ref-1330">Active Server Pages</item>
+<item id="ref-1331">.NET Runtime</item>
+<item id="ref-1332">Application</item>
+</SOAP-ENC:Array>
+<a4:SerializableRegistryKey id="ref-969">
+<ValueNames href="#ref-1333"/>
+<Values href="#ref-1334"/>
+<KeyNames href="#ref-1335"/>
+<Keys href="#ref-1336"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-970">
+<ValueNames href="#ref-1337"/>
+<Values href="#ref-1338"/>
+<KeyNames href="#ref-1339"/>
+<Keys href="#ref-1340"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-971">
+<ValueNames href="#ref-1341"/>
+<Values href="#ref-1342"/>
+<KeyNames href="#ref-1343"/>
+<Keys href="#ref-1344"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-972">
+<ValueNames href="#ref-1345"/>
+<Values href="#ref-1346"/>
+<KeyNames href="#ref-1347"/>
+<Keys href="#ref-1348"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-973">
+<ValueNames href="#ref-1349"/>
+<Values href="#ref-1350"/>
+<KeyNames href="#ref-1351"/>
+<Keys href="#ref-1352"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-974">
+<ValueNames href="#ref-1353"/>
+<Values href="#ref-1354"/>
+<KeyNames href="#ref-1355"/>
+<Keys href="#ref-1356"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-975">
+<ValueNames href="#ref-1357"/>
+<Values href="#ref-1358"/>
+<KeyNames href="#ref-1359"/>
+<Keys href="#ref-1360"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-976">
+<ValueNames href="#ref-1361"/>
+<Values href="#ref-1362"/>
+<KeyNames href="#ref-1363"/>
+<Keys href="#ref-1364"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-977">
+<ValueNames href="#ref-1365"/>
+<Values href="#ref-1366"/>
+<KeyNames href="#ref-1367"/>
+<Keys href="#ref-1368"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-978">
+<ValueNames href="#ref-1369"/>
+<Values href="#ref-1370"/>
+<KeyNames href="#ref-1371"/>
+<Keys href="#ref-1372"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-979">
+<ValueNames href="#ref-1373"/>
+<Values href="#ref-1374"/>
+<KeyNames href="#ref-1375"/>
+<Keys href="#ref-1376"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-980">
+<ValueNames href="#ref-1377"/>
+<Values href="#ref-1378"/>
+<KeyNames href="#ref-1379"/>
+<Keys href="#ref-1380"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-981">
+<ValueNames href="#ref-1381"/>
+<Values href="#ref-1382"/>
+<KeyNames href="#ref-1383"/>
+<Keys href="#ref-1384"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-982">
+<ValueNames href="#ref-1385"/>
+<Values href="#ref-1386"/>
+<KeyNames href="#ref-1387"/>
+<Keys href="#ref-1388"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-983">
+<ValueNames href="#ref-1389"/>
+<Values href="#ref-1390"/>
+<KeyNames href="#ref-1391"/>
+<Keys href="#ref-1392"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-984">
+<ValueNames href="#ref-1393"/>
+<Values href="#ref-1394"/>
+<KeyNames href="#ref-1395"/>
+<Keys href="#ref-1396"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-985">
+<ValueNames href="#ref-1397"/>
+<Values href="#ref-1398"/>
+<KeyNames href="#ref-1399"/>
+<Keys href="#ref-1400"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-986">
+<ValueNames href="#ref-1401"/>
+<Values href="#ref-1402"/>
+<KeyNames href="#ref-1403"/>
+<Keys href="#ref-1404"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-987">
+<ValueNames href="#ref-1405"/>
+<Values href="#ref-1406"/>
+<KeyNames href="#ref-1407"/>
+<Keys href="#ref-1408"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-988">
+<ValueNames href="#ref-1409"/>
+<Values href="#ref-1410"/>
+<KeyNames href="#ref-1411"/>
+<Keys href="#ref-1412"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-989">
+<ValueNames href="#ref-1413"/>
+<Values href="#ref-1414"/>
+<KeyNames href="#ref-1415"/>
+<Keys href="#ref-1416"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-990">
+<ValueNames href="#ref-1417"/>
+<Values href="#ref-1418"/>
+<KeyNames href="#ref-1419"/>
+<Keys href="#ref-1420"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-991">
+<ValueNames href="#ref-1421"/>
+<Values href="#ref-1422"/>
+<KeyNames href="#ref-1423"/>
+<Keys href="#ref-1424"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-992">
+<ValueNames href="#ref-1425"/>
+<Values href="#ref-1426"/>
+<KeyNames href="#ref-1427"/>
+<Keys href="#ref-1428"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-993">
+<ValueNames href="#ref-1429"/>
+<Values href="#ref-1430"/>
+<KeyNames href="#ref-1431"/>
+<Keys href="#ref-1432"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-994">
+<ValueNames href="#ref-1433"/>
+<Values href="#ref-1434"/>
+<KeyNames href="#ref-1435"/>
+<Keys href="#ref-1436"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-995">
+<ValueNames href="#ref-1437"/>
+<Values href="#ref-1438"/>
+<KeyNames href="#ref-1439"/>
+<Keys href="#ref-1440"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-996">
+<ValueNames href="#ref-1441"/>
+<Values href="#ref-1442"/>
+<KeyNames href="#ref-1443"/>
+<Keys href="#ref-1444"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-997">
+<ValueNames href="#ref-1445"/>
+<Values href="#ref-1446"/>
+<KeyNames href="#ref-1447"/>
+<Keys href="#ref-1448"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-998">
+<ValueNames href="#ref-1449"/>
+<Values href="#ref-1450"/>
+<KeyNames href="#ref-1451"/>
+<Keys href="#ref-1452"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-999">
+<ValueNames href="#ref-1453"/>
+<Values href="#ref-1454"/>
+<KeyNames href="#ref-1455"/>
+<Keys href="#ref-1456"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1000">
+<ValueNames href="#ref-1457"/>
+<Values href="#ref-1458"/>
+<KeyNames href="#ref-1459"/>
+<Keys href="#ref-1460"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1001">
+<ValueNames href="#ref-1461"/>
+<Values href="#ref-1462"/>
+<KeyNames href="#ref-1463"/>
+<Keys href="#ref-1464"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1002">
+<ValueNames href="#ref-1465"/>
+<Values href="#ref-1466"/>
+<KeyNames href="#ref-1467"/>
+<Keys href="#ref-1468"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1003">
+<ValueNames href="#ref-1469"/>
+<Values href="#ref-1470"/>
+<KeyNames href="#ref-1471"/>
+<Keys href="#ref-1472"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1004">
+<ValueNames href="#ref-1473"/>
+<Values href="#ref-1474"/>
+<KeyNames href="#ref-1475"/>
+<Keys href="#ref-1476"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1005">
+<ValueNames href="#ref-1477"/>
+<Values href="#ref-1478"/>
+<KeyNames href="#ref-1479"/>
+<Keys href="#ref-1480"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1006">
+<ValueNames href="#ref-1481"/>
+<Values href="#ref-1482"/>
+<KeyNames href="#ref-1483"/>
+<Keys href="#ref-1484"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1007">
+<ValueNames href="#ref-1485"/>
+<Values href="#ref-1486"/>
+<KeyNames href="#ref-1487"/>
+<Keys href="#ref-1488"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1008">
+<ValueNames href="#ref-1489"/>
+<Values href="#ref-1490"/>
+<KeyNames href="#ref-1491"/>
+<Keys href="#ref-1492"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1009">
+<ValueNames href="#ref-1493"/>
+<Values href="#ref-1494"/>
+<KeyNames href="#ref-1495"/>
+<Keys href="#ref-1496"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1010">
+<ValueNames href="#ref-1497"/>
+<Values href="#ref-1498"/>
+<KeyNames href="#ref-1499"/>
+<Keys href="#ref-1500"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1011">
+<ValueNames href="#ref-1501"/>
+<Values href="#ref-1502"/>
+<KeyNames href="#ref-1503"/>
+<Keys href="#ref-1504"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1012">
+<ValueNames href="#ref-1505"/>
+<Values href="#ref-1506"/>
+<KeyNames href="#ref-1507"/>
+<Keys href="#ref-1508"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1013">
+<ValueNames href="#ref-1509"/>
+<Values href="#ref-1510"/>
+<KeyNames href="#ref-1511"/>
+<Keys href="#ref-1512"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1014">
+<ValueNames href="#ref-1513"/>
+<Values href="#ref-1514"/>
+<KeyNames href="#ref-1515"/>
+<Keys href="#ref-1516"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1015">
+<ValueNames href="#ref-1517"/>
+<Values href="#ref-1518"/>
+<KeyNames href="#ref-1519"/>
+<Keys href="#ref-1520"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1016">
+<ValueNames href="#ref-1521"/>
+<Values href="#ref-1522"/>
+<KeyNames href="#ref-1523"/>
+<Keys href="#ref-1524"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1017">
+<ValueNames href="#ref-1525"/>
+<Values href="#ref-1526"/>
+<KeyNames href="#ref-1527"/>
+<Keys href="#ref-1528"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1018">
+<ValueNames href="#ref-1529"/>
+<Values href="#ref-1530"/>
+<KeyNames href="#ref-1531"/>
+<Keys href="#ref-1532"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1019">
+<ValueNames href="#ref-1533"/>
+<Values href="#ref-1534"/>
+<KeyNames href="#ref-1535"/>
+<Keys href="#ref-1536"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1020">
+<ValueNames href="#ref-1537"/>
+<Values href="#ref-1538"/>
+<KeyNames href="#ref-1539"/>
+<Keys href="#ref-1540"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1021">
+<ValueNames href="#ref-1541"/>
+<Values href="#ref-1542"/>
+<KeyNames href="#ref-1543"/>
+<Keys href="#ref-1544"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1022">
+<ValueNames href="#ref-1545"/>
+<Values href="#ref-1546"/>
+<KeyNames href="#ref-1547"/>
+<Keys href="#ref-1548"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1023">
+<ValueNames href="#ref-1549"/>
+<Values href="#ref-1550"/>
+<KeyNames href="#ref-1551"/>
+<Keys href="#ref-1552"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1024">
+<ValueNames href="#ref-1553"/>
+<Values href="#ref-1554"/>
+<KeyNames href="#ref-1555"/>
+<Keys href="#ref-1556"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1025">
+<ValueNames href="#ref-1557"/>
+<Values href="#ref-1558"/>
+<KeyNames href="#ref-1559"/>
+<Keys href="#ref-1560"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1026">
+<ValueNames href="#ref-1561"/>
+<Values href="#ref-1562"/>
+<KeyNames href="#ref-1563"/>
+<Keys href="#ref-1564"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1027">
+<ValueNames href="#ref-1565"/>
+<Values href="#ref-1566"/>
+<KeyNames href="#ref-1567"/>
+<Keys href="#ref-1568"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1028">
+<ValueNames href="#ref-1569"/>
+<Values href="#ref-1570"/>
+<KeyNames href="#ref-1571"/>
+<Keys href="#ref-1572"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1029">
+<ValueNames href="#ref-1573"/>
+<Values href="#ref-1574"/>
+<KeyNames href="#ref-1575"/>
+<Keys href="#ref-1576"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1030">
+<ValueNames href="#ref-1577"/>
+<Values href="#ref-1578"/>
+<KeyNames href="#ref-1579"/>
+<Keys href="#ref-1580"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1031">
+<ValueNames href="#ref-1581"/>
+<Values href="#ref-1582"/>
+<KeyNames href="#ref-1583"/>
+<Keys href="#ref-1584"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1032">
+<ValueNames href="#ref-1585"/>
+<Values href="#ref-1586"/>
+<KeyNames href="#ref-1587"/>
+<Keys href="#ref-1588"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1033">
+<ValueNames href="#ref-1589"/>
+<Values href="#ref-1590"/>
+<KeyNames href="#ref-1591"/>
+<Keys href="#ref-1592"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1034">
+<ValueNames href="#ref-1593"/>
+<Values href="#ref-1594"/>
+<KeyNames href="#ref-1595"/>
+<Keys href="#ref-1596"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1035">
+<ValueNames href="#ref-1597"/>
+<Values href="#ref-1598"/>
+<KeyNames href="#ref-1599"/>
+<Keys href="#ref-1600"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1036">
+<ValueNames href="#ref-1601"/>
+<Values href="#ref-1602"/>
+<KeyNames href="#ref-1603"/>
+<Keys href="#ref-1604"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1037">
+<ValueNames href="#ref-1605"/>
+<Values href="#ref-1606"/>
+<KeyNames href="#ref-1607"/>
+<Keys href="#ref-1608"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1038">
+<ValueNames href="#ref-1609"/>
+<Values href="#ref-1610"/>
+<KeyNames href="#ref-1611"/>
+<Keys href="#ref-1612"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1039">
+<ValueNames href="#ref-1613"/>
+<Values href="#ref-1614"/>
+<KeyNames href="#ref-1615"/>
+<Keys href="#ref-1616"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1040">
+<ValueNames href="#ref-1617"/>
+<Values href="#ref-1618"/>
+<KeyNames href="#ref-1619"/>
+<Keys href="#ref-1620"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1041">
+<ValueNames href="#ref-1621"/>
+<Values href="#ref-1622"/>
+<KeyNames href="#ref-1623"/>
+<Keys href="#ref-1624"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1042">
+<ValueNames href="#ref-1625"/>
+<Values href="#ref-1626"/>
+<KeyNames href="#ref-1627"/>
+<Keys href="#ref-1628"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1043">
+<ValueNames href="#ref-1629"/>
+<Values href="#ref-1630"/>
+<KeyNames href="#ref-1631"/>
+<Keys href="#ref-1632"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1044">
+<ValueNames href="#ref-1633"/>
+<Values href="#ref-1634"/>
+<KeyNames href="#ref-1635"/>
+<Keys href="#ref-1636"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1045">
+<ValueNames href="#ref-1637"/>
+<Values href="#ref-1638"/>
+<KeyNames href="#ref-1639"/>
+<Keys href="#ref-1640"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1046">
+<ValueNames href="#ref-1641"/>
+<Values href="#ref-1642"/>
+<KeyNames href="#ref-1643"/>
+<Keys href="#ref-1644"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1047">
+<ValueNames href="#ref-1645"/>
+<Values href="#ref-1646"/>
+<KeyNames href="#ref-1647"/>
+<Keys href="#ref-1648"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1048">
+<ValueNames href="#ref-1649"/>
+<Values href="#ref-1650"/>
+<KeyNames href="#ref-1651"/>
+<Keys href="#ref-1652"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1049">
+<ValueNames href="#ref-1653"/>
+<Values href="#ref-1654"/>
+<KeyNames href="#ref-1655"/>
+<Keys href="#ref-1656"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1050">
+<ValueNames href="#ref-1657"/>
+<Values href="#ref-1658"/>
+<KeyNames href="#ref-1659"/>
+<Keys href="#ref-1660"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1051">
+<ValueNames href="#ref-1661"/>
+<Values href="#ref-1662"/>
+<KeyNames href="#ref-1663"/>
+<Keys href="#ref-1664"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1052">
+<ValueNames href="#ref-1665"/>
+<Values href="#ref-1666"/>
+<KeyNames href="#ref-1667"/>
+<Keys href="#ref-1668"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1053">
+<ValueNames href="#ref-1669"/>
+<Values href="#ref-1670"/>
+<KeyNames href="#ref-1671"/>
+<Keys href="#ref-1672"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1054">
+<ValueNames href="#ref-1673"/>
+<Values href="#ref-1674"/>
+<KeyNames href="#ref-1675"/>
+<Keys href="#ref-1676"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1055">
+<ValueNames href="#ref-1677"/>
+<Values href="#ref-1678"/>
+<KeyNames href="#ref-1679"/>
+<Keys href="#ref-1680"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1056">
+<ValueNames href="#ref-1681"/>
+<Values href="#ref-1682"/>
+<KeyNames href="#ref-1683"/>
+<Keys href="#ref-1684"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1057">
+<ValueNames href="#ref-1685"/>
+<Values href="#ref-1686"/>
+<KeyNames href="#ref-1687"/>
+<Keys href="#ref-1688"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1058">
+<ValueNames href="#ref-1689"/>
+<Values href="#ref-1690"/>
+<KeyNames href="#ref-1691"/>
+<Keys href="#ref-1692"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1059">
+<ValueNames href="#ref-1693"/>
+<Values href="#ref-1694"/>
+<KeyNames href="#ref-1695"/>
+<Keys href="#ref-1696"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1060">
+<ValueNames href="#ref-1697"/>
+<Values href="#ref-1698"/>
+<KeyNames href="#ref-1699"/>
+<Keys href="#ref-1700"/>
+</a4:SerializableRegistryKey>
+<a4:SerializableRegistryKey id="ref-1061">
+<ValueNames href="#ref-1701"/>
+<Values href="#ref-1702"/>
+<KeyNames href="#ref-1703"/>
+<Keys href="#ref-1704"/>
+</a4:SerializableRegistryKey>
+<SOAP-ENC:Array id="ref-1084" xsi:type="SOAP-ENC:Base64">BwAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1233" xsi:type="SOAP-ENC:Base64">Bw==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1333" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1705">TypesSupported</item>
+<item id="ref-1706">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1334" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1707" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\mscorrc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1335" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1336" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1337" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1708">EventMessageFile</item>
+<item id="ref-1709">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1338" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1710" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\ASP.DLL</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1339" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1340" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1341" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1711">EventMessageFile</item>
+<item id="ref-1712">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1342" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1713" xsi:type="SOAP-ENC:string">C:\WINNT\help\TShoot.ocx</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1343" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1344" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1345" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1714">CategoryCount</item>
+<item id="ref-1715">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1346" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1716" xsi:type="SOAP-ENC:string">C:\WINNT\system32\eventlog.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1347" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1348" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1349" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-1717">EventMessageFile</item>
+<item id="ref-1718">ParameterMessageFile</item>
+<item id="ref-1719">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1350" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-1720" xsi:type="SOAP-ENC:string">C:\WINNT\System32\appmgmts.dll</item>
+<item id="ref-1721" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1351" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1352" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1353" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1722">TypesSupported</item>
+<item id="ref-1723">EventMessageFile</item>
+<item id="ref-1724">CategoryCount</item>
+<item id="ref-1725">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1354" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1726" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\aspnet_rc.dll</item>
+<item xsi:type="xsd:int">2</item>
+<item id="ref-1727" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\aspnet_rc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1355" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1356" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1357" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1358" SOAP-ENC:arrayType="xsd:ur-type[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1359" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1360" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1361" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1728">EventMessageFile</item>
+<item id="ref-1729">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1362" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1730" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winlogon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1363" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1364" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1365" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1731">EventMessageFile</item>
+<item id="ref-1732">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1366" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1733" xsi:type="SOAP-ENC:string">C:\WINNT\System32\Autmgr32.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1367" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1368" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1369" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1734">EventMessageFile</item>
+<item id="ref-1735">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1370" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1736" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ulib.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1371" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1372" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1373" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1737">EventMessageFile</item>
+<item id="ref-1738">CategoryMessageFile</item>
+<item id="ref-1739">TypesSupported</item>
+<item id="ref-1740">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1374" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1741" xsi:type="SOAP-ENC:string">C:\WINNT\System32\query.dll</item>
+<item id="ref-1742" xsi:type="SOAP-ENC:string">C:\WINNT\System32\query.dll</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">1</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1375" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1376" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1377" SOAP-ENC:arrayType="xsd:string[5]">
+<item id="ref-1743">EventMessageFile</item>
+<item id="ref-1744">CategoryMessageFile</item>
+<item id="ref-1745">ParameterMessageFile</item>
+<item id="ref-1746">TypeSupported</item>
+<item id="ref-1747">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1378" SOAP-ENC:arrayType="xsd:ur-type[5]">
+<item id="ref-1748" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item id="ref-1749" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item id="ref-1750" xsi:type="SOAP-ENC:string">C:\WINNT\system32\comsvcs.dll</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">20</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1379" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1380" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1381" SOAP-ENC:arrayType="xsd:string[6]">
+<item id="ref-1751"></item>
+<item id="ref-1752">ConfigCategoryCount</item>
+<item id="ref-1753">CategoryMessageFile</item>
+<item id="ref-1754">EventMessageFile</item>
+<item id="ref-1755">ParameterMessageFile</item>
+<item id="ref-1756">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1382" SOAP-ENC:arrayType="xsd:ur-type[6]">
+<item id="ref-1757" xsi:type="SOAP-ENC:string"></item>
+<item xsi:type="xsd:int">4</item>
+<item id="ref-1758" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item id="ref-1759" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item id="ref-1760" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\netfxcfg.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1383" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1384" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1385" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1761">TypesSupported</item>
+<item id="ref-1762">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1386" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1763" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Scanner\csavslng.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1387" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1388" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1389" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1764">TypesSupported</item>
+<item id="ref-1765">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1390" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1766" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Communication\css_1632.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1391" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1392" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1393" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1767">EventMessageFile</item>
+<item id="ref-1768">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1394" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1769" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\dtspkg.RLL</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1395" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1396" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1397" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1770">TypesSupported</item>
+<item id="ref-1771">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1398" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1772" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio.NET\Common7\Packages\Debugger\dbgproxy.exe</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1399" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1400" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1401" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1773">EventMessageFile</item>
+<item id="ref-1774">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1402" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1775" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\dskquota.dll</item>
+<item id="ref-1776" xsi:type="SOAP-ENC:string">0x00000007</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1403" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1404" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1405" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1777">EventMessageFile</item>
+<item id="ref-1778">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1406" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1779" xsi:type="SOAP-ENC:string">C:\WINNT\System32\drwtsn32.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1407" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1408" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1409" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1780">TypesSupported</item>
+<item id="ref-1781">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1410" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1782" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Command Software Shared\Scanner\dvprptl.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1411" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1412" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1413" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1783">EventMessageFile</item>
+<item id="ref-1784">CategoryMessageFile</item>
+<item id="ref-1785">CategoryCount</item>
+<item id="ref-1786">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1414" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1787" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\edb.dll</item>
+<item id="ref-1788" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\edb.dll</item>
+<item xsi:type="xsd:int">6</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1415" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1416" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1417" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1789">EventMessageFile</item>
+<item id="ref-1790">CategoryMessageFile</item>
+<item id="ref-1791">CategoryCount</item>
+<item id="ref-1792">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1418" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1793" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\eseback2.dll</item>
+<item id="ref-1794" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\eseback2.dll</item>
+<item xsi:type="xsd:int">5</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1419" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1420" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1421" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1795">EventMessageFile</item>
+<item id="ref-1796">CategoryMessageFile</item>
+<item id="ref-1797">CategoryCount</item>
+<item id="ref-1798">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1422" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1799" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\ESE.dll</item>
+<item id="ref-1800" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\ESE.dll</item>
+<item xsi:type="xsd:int">15</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1423" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1424" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1425" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1801">EventMessageFile</item>
+<item id="ref-1802">CategoryMessageFile</item>
+<item id="ref-1803">CategoryCount</item>
+<item id="ref-1804">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1426" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1805" xsi:type="SOAP-ENC:string">C:\WINNT\System32\esent.dll</item>
+<item id="ref-1806" xsi:type="SOAP-ENC:string">C:\WINNT\System32\esent.dll</item>
+<item xsi:type="xsd:int">15</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1427" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1428" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1429" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1807">CategoryCount</item>
+<item id="ref-1808">TypesSupported</item>
+<item id="ref-1809">CategoryMessageFile</item>
+<item id="ref-1810">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1430" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">6</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1811" xsi:type="SOAP-ENC:string">C:\WINNT\System32\es.dll</item>
+<item id="ref-1812" xsi:type="SOAP-ENC:string">C:\WINNT\System32\es.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1431" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1432" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1433" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1813">EventMessageFile</item>
+<item id="ref-1814">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1434" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1815" xsi:type="SOAP-ENC:string">C:\WINNT\System32\evntagnt.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1435" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1436" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1437" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1816">EventMessageFile</item>
+<item id="ref-1817">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1438" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1818" xsi:type="SOAP-ENC:string">G:\Program Files\Exchsrvr\bin\exodbpc.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1439" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1440" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1441" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-1819">EventMessageFile</item>
+<item id="ref-1820">ParameterMessageFile</item>
+<item id="ref-1821">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1442" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-1822" xsi:type="SOAP-ENC:string">C:\WINNT\System32\fdeploy.dll</item>
+<item id="ref-1823" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1443" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1444" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1445" SOAP-ENC:arrayType="xsd:string[3]">
+<item id="ref-1824">EventMessageFile</item>
+<item id="ref-1825">ParameterMessageFile</item>
+<item id="ref-1826">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1446" SOAP-ENC:arrayType="xsd:ur-type[3]">
+<item id="ref-1827" xsi:type="SOAP-ENC:string">C:\WINNT\System32\fdeploy.dll</item>
+<item id="ref-1828" xsi:type="SOAP-ENC:string">C:\WINNT\System32\kernel32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1447" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1448" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1449" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1829">EventMessageFile</item>
+<item id="ref-1830">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1450" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1831" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\40\bin\fp4Autl.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1451" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1452" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1453" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1832">EventMessageFile</item>
+<item id="ref-1833">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1454" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1834" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ftpctrs2.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1455" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1456" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1457" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1835">EventMessageFile</item>
+<item id="ref-1836">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1458" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1837" xsi:type="SOAP-ENC:string">C:\WINNT\System32\hostmib.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1459" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1460" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1461" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1838">EventMessageFile</item>
+<item id="ref-1839">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1462" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1840" xsi:type="SOAP-ENC:string">C:\WINNT\System32\hpmon.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1463" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1464" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1465" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1841">EventMessageFile</item>
+<item id="ref-1842">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1466" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1843" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\httpext.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1467" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1468" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1469" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1844">EventMessageFile</item>
+<item id="ref-1845">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1470" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1846" xsi:type="SOAP-ENC:string">C:\Program Files\Internet Explorer\DW.EXE</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1471" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1472" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1473" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1847">EventMessageFile</item>
+<item id="ref-1848">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1474" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1849" xsi:type="SOAP-ENC:string">C:\WINNT\System32\inetsrv\svcext.dll</item>
+<item xsi:type="xsd:int">15</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1475" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1476" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1477" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1850">EventMessageFile</item>
+<item id="ref-1851">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1478" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1852" xsi:type="SOAP-ENC:string">C:\WINNT\System32\infoctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1479" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1480" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1481" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1853">EventMessageFile</item>
+<item id="ref-1854">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1482" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1855" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\polstore.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1483" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1484" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1485" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1856">EventMessageFile</item>
+<item id="ref-1857">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1486" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1858" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1487" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1488" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1489" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1859">EventMessageFile</item>
+<item id="ref-1860">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1490" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1861" xsi:type="SOAP-ENC:string">C:\WINNT\system32\vmhelper.dll</item>
+<item href="#ref-1862"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1491" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1492" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1493" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1863">TypesSupported</item>
+<item id="ref-1864">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1494" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1865" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\llsrpc.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1495" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1496" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1497" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1866">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1498" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1867" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1499" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1500" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1501" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1868">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1502" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1869" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1503" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1504" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1505" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1870">EventMessageFile</item>
+<item id="ref-1871">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1506" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1872" xsi:type="SOAP-ENC:string">C:\WINNT\System32\loadperf.dll;C:\WINNT\System32\sp2res.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1507" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1508" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1509" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1873">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1510" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1874" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1511" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1512" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1513" SOAP-ENC:arrayType="xsd:string[1]">
+<item id="ref-1875">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1514" SOAP-ENC:arrayType="xsd:ur-type[1]">
+<item id="ref-1876" xsi:type="SOAP-ENC:string">C:\WINNT\Microsoft.NET\Framework\v1.0.2914\EventLogMessages.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1515" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1516" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1517" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1877">EventMessageFile</item>
+<item id="ref-1878">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1518" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1879" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\Microsoft Shared\VS7Debug\mdm.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1519" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1520" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1521" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1880">TypesSupported</item>
+<item id="ref-1881">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1522" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1882" xsi:type="SOAP-ENC:string">G:\Program Files\Microsoft Visual Studio.NET\Common7\IDE\DW.EXE</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1523" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1524" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1525" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1883">EventMessageFile</item>
+<item id="ref-1884">CategoryMessageFile</item>
+<item id="ref-1885">CategoryCount</item>
+<item id="ref-1886">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1526" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1887" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\mssmsg.dll</item>
+<item id="ref-1888" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\mssmsg.dll</item>
+<item xsi:type="xsd:int">4</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1527" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1528" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1529" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1889">EventMessageFile</item>
+<item id="ref-1890">TypeSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1530" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1891" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\nmevtmsg.dll</item>
+<item href="#ref-1892"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1531" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1532" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1533" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1893">EventMessageFile</item>
+<item id="ref-1894">TypesSupported</item>
+<item id="ref-1895">CategoryMessageFile</item>
+<item id="ref-1896">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1534" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1897" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1898" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">18</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1535" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1536" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1537" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1899">EventMessageFile</item>
+<item id="ref-1900">TypesSupported</item>
+<item id="ref-1901">CategoryMessageFile</item>
+<item id="ref-1902">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1538" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1903" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1904" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSDTCPRX.DLL</item>
+<item xsi:type="xsd:int">18</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1539" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1540" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1541" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1905">EventMessageFile</item>
+<item id="ref-1906">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1542" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1907" xsi:type="SOAP-ENC:string">C:\WINNT\System32\msi.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1543" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1544" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1545" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1908">EventMessageFile</item>
+<item id="ref-1909">CategoryMessageFile</item>
+<item id="ref-1910">CategoryCount</item>
+<item id="ref-1911">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1546" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1912" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MQUtil.dll</item>
+<item id="ref-1913" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MQUtil.dll</item>
+<item xsi:type="xsd:int">2</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1547" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1548" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1549" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1914">EventMessageFile</item>
+<item id="ref-1915">CategoryMessageFile</item>
+<item id="ref-1916">CategoryCount</item>
+<item id="ref-1917">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1550" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1918" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\tquery.dll</item>
+<item id="ref-1919" xsi:type="SOAP-ENC:string">C:\Program Files\Common Files\System\MSSearch\bin\tquery.dll</item>
+<item xsi:type="xsd:int">1</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1551" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1552" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1553" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1920">CategoryCount</item>
+<item id="ref-1921">TypesSupported</item>
+<item id="ref-1922">EventMessageFile</item>
+<item id="ref-1923">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1554" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">8</item>
+<item xsi:type="xsd:int">255</item>
+<item id="ref-1924" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+<item id="ref-1925" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1555" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1556" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1557" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1926">EventMessageFile</item>
+<item id="ref-1927">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1558" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1928" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\Tools\Binn\Resources\1033\sqladevn.rll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1559" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1560" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1561" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1929">EventMessageFile</item>
+<item id="ref-1930">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1562" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1931" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ntbackup.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1563" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1564" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1565" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1932">EventMessageFile</item>
+<item id="ref-1933">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1566" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1934" xsi:type="SOAP-ENC:string">C:\WINNT\system32\ntbackup.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1567" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1568" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1569" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1935">EventMessageFile</item>
+<item id="ref-1936">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1570" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1937" xsi:type="SOAP-ENC:string">C:\WINNT\System32\ntfrsres.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1571" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1572" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1573" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1938">EventMessageFile</item>
+<item id="ref-1939">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1574" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1940" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\oakley.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1575" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1576" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1577" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1941">EventMessageFile</item>
+<item id="ref-1942">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1578" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1943" xsi:type="SOAP-ENC:string">%SystemRoot%\System32\cscui.dll</item>
+<item id="ref-1944" xsi:type="SOAP-ENC:string">0x00000007</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1579" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1580" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1581" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1945">EventMessageFile</item>
+<item id="ref-1946">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1582" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1947" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1583" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1584" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1585" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1948">EventMessageFile</item>
+<item id="ref-1949">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1586" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1950" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfdisk.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1587" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1588" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1589" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1951">EventMessageFile</item>
+<item id="ref-1952">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1590" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1953" xsi:type="SOAP-ENC:string">C:\WINNT\System32\prflbmsg.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1591" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1592" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1593" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1954">EventMessageFile</item>
+<item id="ref-1955">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1594" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1956" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfmon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1595" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1596" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1597" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1957">EventMessageFile</item>
+<item id="ref-1958">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1598" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1959" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfnet.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1599" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1600" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1601" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1960">EventMessageFile</item>
+<item id="ref-1961">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1602" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1962" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfOS.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1603" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1604" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1605" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1963">EventMessageFile</item>
+<item id="ref-1964">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1606" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1965" xsi:type="SOAP-ENC:string">C:\WINNT\System32\perfproc.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1607" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1608" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1609" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1966">TypesSupported</item>
+<item id="ref-1967">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1610" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1968" xsi:type="SOAP-ENC:string">C:\Program Files\Phone Book Service\Bin\pbsvrmsg.dll</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1611" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1612" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1613" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1969">EventMessageFile</item>
+<item id="ref-1970">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1614" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1971" xsi:type="SOAP-ENC:string">C:\WINNT\System32\umpnpmgr.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1615" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1616" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1617" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1972">EventMessageFile</item>
+<item id="ref-1973">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1618" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1974" xsi:type="SOAP-ENC:string">C:\WINNT\System32\scecli.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1619" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1620" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1621" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1975">EventMessageFile</item>
+<item id="ref-1976">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1622" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1977" xsi:type="SOAP-ENC:string">C:\WINNT\System32\scesrv.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1623" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1624" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1625" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1978">EventMessageFile</item>
+<item id="ref-1979">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1626" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1980" xsi:type="SOAP-ENC:string">C:\WINNT\System32\sclgntfy.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1627" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1628" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1629" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1981">EventMessageFile</item>
+<item id="ref-1982">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1630" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1983" xsi:type="SOAP-ENC:string">C:\WINNT\System32\appmgr.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1631" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1632" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1633" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1984">EventMessageFile</item>
+<item id="ref-1985">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1634" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-1986" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winspool.drv</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1635" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1636" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1637" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-1987">TypesSupported</item>
+<item id="ref-1988">EventMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1638" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item xsi:type="xsd:int">7</item>
+<item id="ref-1989" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\RESOUR~1\1033\SQLEVN70.RLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1639" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1640" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1641" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1990">EventMessageFile</item>
+<item id="ref-1991">CategoryMessageFile</item>
+<item id="ref-1992">CategoryCount</item>
+<item id="ref-1993">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1642" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-1994" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\COM\sqlfth75.dll</item>
+<item id="ref-1995" xsi:type="SOAP-ENC:string">C:\Program Files\Microsoft SQL Server\80\COM\sqlfth75.dll</item>
+<item xsi:type="xsd:int">0</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1643" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1644" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1645" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-1996">CategoryCount</item>
+<item id="ref-1997">TypesSupported</item>
+<item id="ref-1998">EventMessageFile</item>
+<item id="ref-1999">CategoryMessageFile</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1646" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item xsi:type="xsd:int">4</item>
+<item xsi:type="xsd:int">7</item>
+<item id="ref-2000" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\SQLAGENT.DLL</item>
+<item id="ref-2001" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\BINN\SQLAGENT.DLL</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1647" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1648" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1649" SOAP-ENC:arrayType="xsd:string[4]">
+<item id="ref-2002">EventMessageFile</item>
+<item id="ref-2003">CategoryMessageFile</item>
+<item id="ref-2004">TypesSupported</item>
+<item id="ref-2005">CategoryCount</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1650" SOAP-ENC:arrayType="xsd:ur-type[4]">
+<item id="ref-2006" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\binn\COMNEVNT.DLL</item>
+<item id="ref-2007" xsi:type="SOAP-ENC:string">D:\PROGRA~1\MICROS~1\MSSQL\binn\COMNEVNT.DLL</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">8</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1651" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1652" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1653" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2008">EventMessageFile</item>
+<item id="ref-2009">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1654" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2010" xsi:type="SOAP-ENC:string">C:\WINNT\System32\smlogsvc.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1655" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1656" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1657" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2011">EventMessageFile</item>
+<item id="ref-2012">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1658" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2013" xsi:type="SOAP-ENC:string">C:\WINNT\System32\tlntsvr.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1659" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1660" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1661" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2014">EventMessageFile</item>
+<item id="ref-2015">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1662" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2016" xsi:type="SOAP-ENC:string">C:\WINNT\System32\userenv.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1663" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1664" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1665" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2017">EventMessageFile</item>
+<item id="ref-2018">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1666" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2019" xsi:type="SOAP-ENC:string">C:\WINNT\System32\userinit.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1667" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1668" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1669" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2020">EventMessageFile</item>
+<item id="ref-2021">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1670" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2022" xsi:type="SOAP-ENC:string">C:\WINNT\System32\MSVBVM60.DLL</item>
+<item xsi:type="xsd:int">4</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1671" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1672" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1673" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2023">EventMessageFile</item>
+<item id="ref-2024">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1674" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2025" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio\VB98\Tsql\vbsdidb.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1675" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1676" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1677" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2026">EventMessageFile</item>
+<item id="ref-2027">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1678" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2028" xsi:type="SOAP-ENC:string">D:\Program Files\Microsoft Visual Studio.NET\Common7\Tools\Analyzer\varpc.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1679" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1680" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1681" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2029">EventMessageFile</item>
+<item id="ref-2030">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1682" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2031" xsi:type="SOAP-ENC:string">C:\WINNT\System32\w3ctrs.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1683" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1684" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1685" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2032">EventMessageFile</item>
+<item id="ref-2033">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1686" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2034" xsi:type="SOAP-ENC:string">C:\WINNT\System32\advapi32.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1687" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1688" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1689" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2035">EventMessageFile</item>
+<item id="ref-2036">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1690" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2037" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winlogon.exe</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1691" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1692" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1693" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2038">EventMessageFile</item>
+<item id="ref-2039">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1694" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2040" xsi:type="SOAP-ENC:string">C:\WINNT\System32\WBEM\WinMgmtR.dll</item>
+<item href="#ref-2041"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1695" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1696" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1697" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2042">EventMessageFile</item>
+<item id="ref-2043">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1698" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2044" xsi:type="SOAP-ENC:string">C:\WINNT\System32\winsevnt.dll</item>
+<item xsi:type="xsd:int">7</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1699" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1700" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1701" SOAP-ENC:arrayType="xsd:string[2]">
+<item id="ref-2045">EventMessageFile</item>
+<item id="ref-2046">TypesSupported</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1702" SOAP-ENC:arrayType="xsd:ur-type[2]">
+<item id="ref-2047" xsi:type="SOAP-ENC:string">C:\WINNT\System32\wshext.dll</item>
+<item xsi:type="xsd:int">31</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1703" SOAP-ENC:arrayType="xsd:string[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1704" SOAP-ENC:arrayType="a4:SerializableRegistryKey[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1862" xsi:type="SOAP-ENC:Base64">BwAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-1892" xsi:type="SOAP-ENC:Base64">BwAAAA==</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-2041" xsi:type="SOAP-ENC:Base64">Bw==</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

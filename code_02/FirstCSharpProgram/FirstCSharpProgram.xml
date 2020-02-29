@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstCSharpProgram</name>
+    </assembly>
+    <members>
+        <member name="T:FirstCSharpProgram.FirstCSharpClass">
+            <summary>
+            My first C# class. Contains the program entry point.
+            </summary>
+        </member>
+    </members>
+</doc>

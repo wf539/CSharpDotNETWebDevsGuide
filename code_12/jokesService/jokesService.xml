@@ -1,0 +1,717 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>jokesService</name>
+    </assembly>
+    <members>
+        <member name="T:jokesService.databaseAccess">
+            <summary>
+              The databaseAccess sets up the connection to the
+              data repository.
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="M:jokesService.databaseAccess.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+        <member name="M:jokesService.databaseAccess.getConnection">
+            <summary>
+              The getConnection method sets up the database connection
+            </summary>
+            <returns>the (closed) SQL connection object</returns>
+        </member>
+        <member name="T:jokesService.jokeException">
+            <summary>
+              Custom error handling class
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="F:jokesService.jokeException.failReason">
+            <value>
+              fail reason error code
+            </value>
+        </member>
+        <member name="M:jokesService.jokeException.#ctor(System.String)">
+            <summary>
+              Public class constructor.
+            </summary>
+            <param name='failReason'
+              type='string'
+              desc='fail reason error code'>
+            </param>
+        </member>
+        <member name="M:jokesService.jokeException.getNiceErrorMessage(System.String)">
+            <summary>
+              The getNiceErrorMessage method converts an error code into
+              a user friendly error message, returned through a SOAP fault.
+            </summary>
+            <param name='errorCode'
+              type='string'
+              desc='error code'>
+            </param>
+            <returns>a friendly user error message</returns>
+        </member>
+        <member name="M:jokesService.jokeException.writeEventLogEntry(System.String,System.String)">
+            <summary>
+              The writeEventLogEntry method writes an error log entry
+              into the Application event log
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='failReason'
+              type='string'
+              desc='fail reason error code'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="T:jokesService.jokes">
+            <summary>
+              The jokes web service provides methods to manage and retrieve 
+              jokes from the database.
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="F:jokesService.jokes.soapErrorDoc">
+            <value>error document throwm by SOAP exception</value>
+        </member>
+        <member name="F:jokesService.jokes.xmlFailReasonNode">
+            <value>text node wit user friendly error message</value>
+        </member>
+        <member name="M:jokesService.jokes.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+        <member name="M:jokesService.jokes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:jokesService.jokes.Dispose(System.Boolean)">
+            <summary>
+              Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:jokesService.jokes.addJoke(System.String,System.String,System.String)">
+            <summary>
+              The addJoke method adds a new joke to the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='joke'
+              type='string'
+              desc='the joke'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.jokes.getJokes(System.String,System.String,System.Int32)">
+            <summary>
+              The getJokes method gets howMany (moderated) jokes 
+              from the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='howMany'
+              type='int'
+              desc='how many jokes we would like'>
+            </param>
+            <returns>an XML representation (xmlJokesReturn) 
+              of howMany jokes</returns>
+        </member>
+        <member name="M:jokesService.jokes.addRating(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+              The addRating method lets a user add a rating 
+              for a joke to the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='rating'
+              type='int'
+              desc='rating of the joke (1-5)'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='ID of the joke'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.jokes.getUnmoderated(System.String,System.String,System.Int32)">
+            <summary>
+              The getUnmoderated method lets a moderator retrieve 
+              howMany unmoderated jokes from the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='howMany'
+              type='int'
+              desc='how many jokes we would like'>
+            </param>
+            <returns>an XML representation (xmlJokesReturn) 
+              of howMany jokes</returns>
+        </member>
+        <member name="M:jokesService.jokes.addModerated(System.String,System.String,System.Int32)">
+            <summary>
+              The addModerated method lets a moderator set a joke to be 
+            'moderated', i.e. accessible to regular users
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='ID of joke'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.jokes.deleteUnmoderated(System.String,System.String,System.Int32)">
+            <summary>
+              The deleteUnmoderated method lets a moderator delete a 
+              (unmoderated) joke from the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='ID of joke'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.jokes.throwFault(System.String,System.String,System.String)">
+            <summary>
+              The throwFault method throws a SOAP fault end ends 
+              execution of the web service method
+            </summary>
+            <param name='message'
+              type='string'
+              desc='start of text node of faultstring element in 
+              SOAP fault message'>
+            </param>
+            <param name='failReason'
+              type='string'
+              desc='text node for custom failReason element in SOAP 
+              fault message'>
+            </param>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="T:jokesService.jokesImplement">
+            <summary>
+              Implementation class for jokes web service.
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="M:jokesService.jokesImplement.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+        <member name="M:jokesService.jokesImplement.createSqlManageRating(System.String,System.String,System.String,System.Data.SqlClient.SqlCommand)">
+            <summary>
+              The createSqlManageRating method sets up the SQL command 
+              object for the stored procedure sp_manageRating, which 
+              deals with adding and deleting user joke ratings
+            </summary>
+            <param name='jokeID'
+              type='string'
+              desc='the joke ID for the joke we would like to rate'>
+            </param>
+            <param name='rating'
+              type='string'
+              desc='the user rating for the joke (1-5)'>
+            </param>
+            <param name='action'
+              type='string'
+              desc='the action the SQL stored procedure should take 
+              (see the stored procedure definition for allowed action 
+              keywords)'>
+            </param>
+            <param name='sqlCommand'
+              type='SqlCommand'
+              desc='a reference to a SQL command object'>
+            </param>
+            <returns>the prepared SQL command object</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.createSqlManageJoke(System.String,System.String,System.String,System.String,System.String,System.Data.SqlClient.SqlCommand)">
+            <summary>
+              The createSqlManageJoke method sets up the SQL command object 
+              for the stored procedure sp_manageJoke, which deals with 
+              adding, updating, and deleting jokes
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user (zero length if N/A)'>
+            </param>
+            <param name='joke'
+              type='string'
+              desc='the joke (zero length if N/A)'>
+            </param>
+            <param name='isModerated'
+              type='string'
+              desc='true/false if this is/is not a moderated joke 
+              (zero length if N/A)'>
+            </param>
+            <param name='jokeID'
+              type='string'
+              desc='the joke ID for the joke (zero length if N/A)'>
+            </param>
+            <param name='action'
+              type='string'
+              desc='the action the SQL stored procedure should take 
+              (see the stored procedure definition for allowed action 
+              keywords)'>
+            </param>
+            <param name='sqlCommand'
+              type='SqlCommand'
+              desc='a reference to a SQL command object'>
+            </param>
+            <returns>the prepared SQL command object</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.createSqlReturnJokes(System.String,System.String,System.String,System.Data.SqlClient.SqlCommand)">
+            <summary>
+              The createSqlReturnJokes method sets up the SQL command object 
+              for the stored procedure sp_returnJokes, which returns jokes
+            </summary>
+            <param name='howMany'
+              type='string'
+              desc='how many jokes we would like (zero length if N/A)'>
+            </param>
+            <param name='isModerated'
+              type='string'
+              desc='true/false if we are interested in (not) moderated 
+              jokes (zero length if N/A)'>
+            </param>
+            <param name='returnRandom'
+              type='string'
+              desc='true/false if we are interested getting random jokes
+              (actually, only the starting position is random, from there
+              on we retrieve jokes in sequential order for practical 
+              reasons)'>
+            </param>
+            <param name='sqlCommand'
+              type='SqlCommand'
+              desc='a reference to a SQL command object'>
+            </param>
+            <returns>the prepared SQL command object</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.addJoke(System.String,System.String,System.String)">
+            <summary>
+              The addJoke method lets registered users add a joke
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='joke'
+              type='string'
+              desc='the joke we are adding'>
+            </param>
+            <returns>true</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.getJokes(System.String,System.String,System.Int32)">
+            <summary>
+              The getJokes method returns howMany new jokes from the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='howMany'
+              type='int'
+              desc='number of jokes to return (1-10)'>
+            </param>
+            <returns>an XML representation (xmlJokesReturn) of a single joke</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.addRating(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+              The addRating method lets registered users rate a joke
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user'>
+            </param>
+            <param name='rating'
+              type='int'
+              desc='the rating of the joke to rate (1-5)'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='the ID of the joke to rate'>
+            </param>
+            <returns>true</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.getUnmoderated(System.String,System.String,System.Int32)">
+            <summary>
+              The getUnmoderated method retrieves howMany jokes from 
+              the database
+              (for moderators only)
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='howMany'
+              type='int'
+              desc='number of jokes to return'>
+            </param>
+            <returns>an XML representation (xmlJokesReturn) 
+              of a single joke</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.addModerated(System.String,System.String,System.Int32)">
+            <summary>
+              The addModerated method sets a previously submitted joke
+              to become a moderated joke
+              (for moderators only)
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='joke ID of joke'>
+            </param>
+            <returns>an XML representation (xmlJokesReturn) 
+              of a single joke</returns>
+        </member>
+        <member name="M:jokesService.jokesImplement.deleteUnmoderated(System.String,System.String,System.Int32)">
+            <summary>
+              The deleteUnmoderated method deletes a previously 
+              submitted joke (unmoderated) joke
+              (for moderators only)
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='jokeID'
+              type='int'
+              desc='joke ID of joke'>
+            </param>
+            <returns>true</returns>
+        </member>
+        <member name="T:jokesService.userAdmin">
+            <summary>
+              The userAdmin class provides methods to manage users and 
+              moderators in the database.
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="F:jokesService.userAdmin.soapErrorDoc">
+            <value>error document thrown by SOAP exception</value>
+        </member>
+        <member name="F:jokesService.userAdmin.xmlFailReasonNode">
+            <value>text node with user friendly error message</value>
+        </member>
+        <member name="M:jokesService.userAdmin.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+        <member name="M:jokesService.userAdmin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:jokesService.userAdmin.Dispose(System.Boolean)">
+            <summary>
+              Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:jokesService.userAdmin.addUser(System.String,System.String)">
+            <summary>
+              The addUser method adds a new user to the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of new user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of new user'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.userAdmin.addModerator(System.String,System.String,System.String)">
+            <summary>
+              The addModerator method adds a new moderator to the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator'>
+            </param>
+            <param name='newModerator'
+              type='string'
+              desc='user name of user who will become a moderator'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.userAdmin.checkUser(System.String,System.String,System.Boolean)">
+            <summary>
+              The checkUser method checks if a user or moderator is
+              already defined in the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of user or moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of user or moderator'>
+            </param>
+            <param name='isModerator'
+              type='bool'
+              desc='check for moderator status (if false, we do 
+              not check)'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:jokesService.userAdmin.throwFault(System.String,System.String,System.String)">
+            <summary>
+              The throwFault method throws a SOAP fault end ends 
+              execution of the web service method
+            </summary>
+            <param name='message'
+              type='string'
+              desc='start of text node of faultstring element in 
+              SOAP fault message'>
+            </param>
+            <param name='failReason'
+              type='string'
+              desc='text node for custom failReason element in SOAP 
+              fault message'>
+            </param>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="T:jokesService.userAdminImplement">
+            <summary>
+              Implementation class for userAdmin web service.
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="M:jokesService.userAdminImplement.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+        <member name="M:jokesService.userAdminImplement.createSqlManageUser(System.String,System.String,System.String,System.String,System.Data.SqlClient.SqlCommand)">
+            <summary>
+              The createSqlManageUser method sets up the SQL command object 
+              for the stored procedure sp_manageUser, which deals with 
+              adding, updating, and deleting users and managers
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user (zero length if N/A)'>
+            </param>
+            <param name='isModerator'
+              type='string'
+              desc='true/false if this user is a moderator'>
+            </param>
+            <param name='action'
+              type='string'
+              desc='the action the SQL stored procedure should take 
+              (see the stored procedure definition for allowed action 
+              keywords)'>
+            </param>
+            <param name='sqlCommand'
+              type='SqlCommand'
+              desc='a reference to a SQL command object'>
+            </param>
+            <returns>the prepared SQL command object</returns>
+        </member>
+        <member name="M:jokesService.userAdminImplement.createSqlCheckUser(System.String,System.String,System.String,System.Data.SqlClient.SqlCommand)">
+            <summary>
+              The createSqlCheckUser method sets up the SQL command object 
+              for the stored procedure sp_checkUser, which verifies passed
+              user information with user information in the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of registered user (zero length if N/A)'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of registered user (zero length if N/A)'>
+            </param>
+            <param name='isModerator'
+              type='string'
+              desc='true/false if this user is a moderator 
+              (zero length if N/A)'>
+            </param>
+            <param name='sqlCommand'
+              type='SqlCommand'
+              desc='a reference to a SQL command object'>
+            </param>
+            <returns>the prepared SQL command object</returns>
+        </member>
+        <member name="M:jokesService.userAdminImplement.addUser(System.String,System.String)">
+            <summary>
+              The addUser method adds a new user to the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of new user'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of new user'>
+            </param>
+            <returns>true</returns>
+        </member>
+        <member name="M:jokesService.userAdminImplement.addModerator(System.String,System.String,System.String)">
+            <summary>
+              The addModerator method sets a previously added user to become 
+              a moderator
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of moderator making the call'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of moderator making the call'>
+            </param>
+            <param name='newModerator'
+              type='string'
+              desc='user name of registered user who will become
+              a moderator'>
+            </param>
+            <returns>true</returns>
+        </member>
+        <member name="M:jokesService.userAdminImplement.checkUser(System.String,System.String,System.Boolean)">
+            <summary>
+              The checkUser method checks if a user or moderator is
+              already defined in the database
+            </summary>
+            <param name='userName'
+              type='string'
+              desc='name of user or moderator'>
+            </param>
+            <param name='password'
+              type='string'
+              desc='password of user or moderator'>
+            </param>
+            <param name='isModerator'
+              type='bool'
+              desc='check for moderator status (if false, 
+              we do not check)'>
+            </param>
+            <returns>nothing</returns>
+        </member>
+        <member name="T:jokesService.xmlJokesReturn">
+            <summary>
+              The xmlJokesReturn class is the return type of all public 
+              methods returning joke data.  
+            </summary>
+            <remarks>
+              Author: Adrian Turtschi; aturtschi@hotmail.com; Sept 2001
+            </remarks>
+        </member>
+        <member name="F:jokesService.xmlJokesReturn.jokeID">
+            <value>ID of joke returned</value>
+        </member>
+        <member name="F:jokesService.xmlJokesReturn.joke">
+            <value>the actual joke</value>
+        </member>
+        <member name="F:jokesService.xmlJokesReturn.rating">
+            <value>average rating of the joke (can be empty)</value>
+        </member>
+        <member name="M:jokesService.xmlJokesReturn.#ctor">
+            <summary>
+              Public class constructor.
+            </summary>
+        </member>
+    </members>
+</doc>

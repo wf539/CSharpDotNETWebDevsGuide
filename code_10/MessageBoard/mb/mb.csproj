@@ -1,0 +1,295 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9254"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{9CF9E3B0-B721-421E-A2E1-090E01C9B128}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "mb"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                NoStandardLibraries = "false"
+                OutputType = "Library"
+                RootNamespace = "mb"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "admin_group_list.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "board.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "board.aspx.cs"
+                    DependentUpon = "board.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "board.aspx.resx"
+                    DependentUpon = "board.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "boardlist.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "boardlist.aspx.cs"
+                    DependentUpon = "boardlist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "boardlist.aspx.resx"
+                    DependentUpon = "boardlist.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "clientfunctions.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "createBoard.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "createBoard.aspx.cs"
+                    DependentUpon = "createBoard.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "createBoard.aspx.resx"
+                    DependentUpon = "createBoard.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "createMod.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "createMod.aspx.cs"
+                    DependentUpon = "createMod.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "createMod.aspx.resx"
+                    DependentUpon = "createMod.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "deleteBoard.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "deleteBoard.aspx.cs"
+                    DependentUpon = "deleteBoard.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "deleteBoard.aspx.resx"
+                    DependentUpon = "deleteBoard.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "mb.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "message_board_list.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "messageboard.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "respond2message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "respond2message.aspx.cs"
+                    DependentUpon = "respond2message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "respond2message.aspx.resx"
+                    DependentUpon = "respond2message.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "respond2message.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "start.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "top.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "transformMessage.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "user_group_list.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.cs"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "components\mbdataaccess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\downArrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\minus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\rightArrow.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

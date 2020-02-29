@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionServer", "VersionServer.csproj", "{B9E101A5-A1E4-4066-83C2-6CAC0AC0310C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionHost", "..\VersionHost\VersionHost.csproj", "{3E295FE3-FB4C-4E9F-A227-C83F9B20AAB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B9E101A5-A1E4-4066-83C2-6CAC0AC0310C}.Debug.ActiveCfg = Debug|.NET
+		{B9E101A5-A1E4-4066-83C2-6CAC0AC0310C}.Debug.Build.0 = Debug|.NET
+		{B9E101A5-A1E4-4066-83C2-6CAC0AC0310C}.Release.ActiveCfg = Release|.NET
+		{B9E101A5-A1E4-4066-83C2-6CAC0AC0310C}.Release.Build.0 = Release|.NET
+		{3E295FE3-FB4C-4E9F-A227-C83F9B20AAB3}.Debug.ActiveCfg = Debug|.NET
+		{3E295FE3-FB4C-4E9F-A227-C83F9B20AAB3}.Debug.Build.0 = Debug|.NET
+		{3E295FE3-FB4C-4E9F-A227-C83F9B20AAB3}.Release.ActiveCfg = Release|.NET
+		{3E295FE3-FB4C-4E9F-A227-C83F9B20AAB3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

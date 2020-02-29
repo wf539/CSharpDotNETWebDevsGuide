@@ -1,0 +1,5 @@
+System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Windows.Forms.Form, System.Windows.Forms, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Windows.Forms.PictureBox, System.Windows.Forms, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+System.Messaging.MessageQueue, System.Messaging, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a

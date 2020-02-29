@@ -1,0 +1,269 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.0.9254"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{2C5D96CD-11C8-406B-A29F-436E377A1070}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "simpleCart"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                NoStandardLibraries = "false"
+                OutputType = "Library"
+                RootNamespace = "simpleCart"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = "/ProjectComments/simpleCart/doc.xml"
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cart.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "catalog.xslt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "header.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "page1.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "page1.aspx.cs"
+                    DependentUpon = "page1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "page1.aspx.resx"
+                    DependentUpon = "page1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "simpleCart.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "components\catalog.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "components\dataaccess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "components\xmlShoppingCart.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "images\asp.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\aspconfig.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ccda.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ccna.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\cisco1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ciscoAdmin.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ciscoconfig.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ciscoremote.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ciscovoice.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\hack.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\isaconfig.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\isawin.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\java.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\mcsdcplus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\mcse2000.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\ora.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\palm.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\sql.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\test.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\testcisco.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\trouble.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\win2000activedir.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\win2000terminalserve.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\winexchange.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\winpro.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

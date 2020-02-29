@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunStuff", "FunStuff.csproj", "{5A97FFA2-BC3C-41F3-96E3-64F9E4358923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFunStuff", "..\TestFunStuff\TestFunStuff.csproj", "{C2CF41B6-D2B2-4B7F-A010-DA9A6EFD985C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5A97FFA2-BC3C-41F3-96E3-64F9E4358923}.Debug.ActiveCfg = Debug|.NET
+		{5A97FFA2-BC3C-41F3-96E3-64F9E4358923}.Debug.Build.0 = Debug|.NET
+		{5A97FFA2-BC3C-41F3-96E3-64F9E4358923}.Release.ActiveCfg = Release|.NET
+		{5A97FFA2-BC3C-41F3-96E3-64F9E4358923}.Release.Build.0 = Release|.NET
+		{C2CF41B6-D2B2-4B7F-A010-DA9A6EFD985C}.Debug.ActiveCfg = Debug|.NET
+		{C2CF41B6-D2B2-4B7F-A010-DA9A6EFD985C}.Debug.Build.0 = Debug|.NET
+		{C2CF41B6-D2B2-4B7F-A010-DA9A6EFD985C}.Release.ActiveCfg = Release|.NET
+		{C2CF41B6-D2B2-4B7F-A010-DA9A6EFD985C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListHost</name>
+    </assembly>
+    <members>
+        <member name="T:ListHost.CompanyListHost">
+            <summary>
+            The application ListClient uses this host
+            </summary>
+            <remarks>
+            <H4>Channels</H4>
+            HttpServerChannel
+            Port (8080)
+            <BR></BR>
+            <H4>Remote Objects</H4>
+            <B>Type:</B> ListServer.CompanyLists
+            <B>URI:</B> CompanyLists
+            <B>Creation Type:</B> Singleton
+            <B>Test URL:</B><A HREF="http:\\localhost:8080\CompanyLists?wsdl">click to test</A>
+            </remarks>
+        </member>
+        <member name="M:ListHost.CompanyListHost.Main(System.String[])">
+            <summary>
+            Registers the remoting objects
+            </summary>
+        </member>
+    </members>
+</doc>

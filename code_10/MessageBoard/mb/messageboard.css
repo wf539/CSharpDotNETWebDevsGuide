@@ -1,0 +1,75 @@
+.selected
+{
+	border:solid thin silver;
+	background-color: #ffffe1;
+	width:250px;
+}
+
+.activeFunction
+{
+	color:Blue;
+	font-weight:bold;
+}
+
+.inactiveFunction
+{
+	padding:1em;
+	color:White;
+}
+
+body
+{
+	font-family:Arial, Verdana, Sans-Serif;
+	font-size:10pt;
+}
+
+.delete
+{
+	background-color:white;
+	padding:1px;
+	border:outset thin silver;
+}
+
+a.unselectedItem
+{
+	text-decoration:none;
+	color:Black;
+	padding:0px 2px 2px 2px;
+}
+
+a.selectedItem
+{
+	background-color:silver;
+	color:White;
+	text-decoration:none;
+	padding:0px 2px 2px 2px;
+}
+
+.directions
+{
+	border:outset thin silver;
+	padding:2px 0px 2px	10px;
+	background-color:Beige;
+}
+
+.message-text
+{
+	position:relative;
+	left:17px;
+	color:dimgray;
+	font-size:9pt;	
+}
+
+.timestamp
+{
+	font-size:8pt;
+	color:dimgray;
+}
+
+.title
+{
+	text-align:center;
+	width:100%;
+	font-size:14pt;
+	color:Blue;
+}

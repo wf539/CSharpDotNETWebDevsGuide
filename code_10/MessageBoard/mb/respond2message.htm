@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<script language="javascript" src="clientfunctions.js"></script>
+		<script language="javascript">
+		<!--
+			var IsValidEmail = true;
+			
+			function validateEmail(){
+				if( email.value ==""){
+					//since email is not a required field set to true
+					//so user can continue if email is blank.
+					IsValidEmail = true;
+					setElementPropertyValue( errorMsg, "visibility", "hidden" )
+					return;
+				}
+				var regExp = /.*\@.*\..*/; //any number of don't 
+				if( !regExp.test( email.value ) ){
+					IsValidEmail = false;
+					setElementPropertyValue( errorMsg, "visibility", "visible" )
+				}
+			}
+			
+			function sendResponse(){
+				//get a handle to parent windows document object
+				var hParent = window.opener.document;
+				
+				//update parent windows hidden data elements
+				hParent.Board.responderEmail.value = respond2message.email;
+				hParent.Board.responderName.value = respond2message.name;
+				hParent.Board.responseMessage.value = respond2message.responseMessage;
+				
+				//post the data to the server
+				hParent.Board.ClientPost.value = "true";
+				hParent.Board.submit();
+				
+				// close this window
+				window.close();
+			}
+		//-->
+		</script>
+	</HEAD>
+	<body>
+		<form id="respond2message" method="post" runat="server">
+			<table>
+				<tr>
+					<td align="right">
+						your name:
+					</td>
+					<td align="left" colspan="2">
+						<input type="text" id="name">
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						email:
+					</td>
+					<td align="left">
+						<input type="text" id="email" onblur="validateEmail()">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						&nbsp;
+					</td>
+					<td colspan="2">
+						<span id="errorMsg" style="visibility:hidden;color:red">invalid email address </span>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+						response:
+					</td>
+					<td colspan="2">
+						&nbsp;
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<textarea id="responseMessage" cols="40" rows="10"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="right">
+						<br>
+						<input type="button" id="sendResponse" value="send response" onclick="sendResponse()"></asp:Button> 
+						&nbsp; <input type="button" value="cancel" onclick="window.close()" ID="cancel" NAME="cancel">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</HTML>

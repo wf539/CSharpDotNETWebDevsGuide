@@ -1,0 +1,1 @@
+osql -S (local)\NetSDK -U SA -P -i installJokes.sql

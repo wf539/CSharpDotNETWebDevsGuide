@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:schemas-syngress-com-soap:jokes" xmlns:s1="urn:schemas-syngress-com-soap" targetNamespace="urn:schemas-syngress-com-soap" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:schemas-syngress-com-soap:jokes">
+      <s:element name="addJoke">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="joke" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addJokeResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getJokes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="howMany" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getJokesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="jokeData" type="s0:xmlJokesReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="xmlJokesReturn">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="jokeID" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="joke" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="rating" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addRating">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="rating" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="jokeID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addRatingResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUnmoderated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="howMany" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUnmoderatedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="jokeData" type="s0:xmlJokesReturn" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addModerated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="jokeID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addModeratedResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="deleteUnmoderated">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="jokeID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteUnmoderatedResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:schemas-syngress-com-soap">
+      <s:element name="ArrayOfXmlJokesReturn" nillable="true" type="s1:ArrayOfXmlJokesReturn" />
+      <s:complexType name="ArrayOfXmlJokesReturn">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="xmlJokesReturn" nillable="true" type="s1:xmlJokesReturn" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="xmlJokesReturn">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="jokeID" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="joke" nillable="true" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="rating" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="addJokeSoapIn">
+    <part name="parameters" element="s0:addJoke" />
+  </message>
+  <message name="addJokeSoapOut">
+    <part name="parameters" element="s0:addJokeResponse" />
+  </message>
+  <message name="getJokesSoapIn">
+    <part name="parameters" element="s0:getJokes" />
+  </message>
+  <message name="getJokesSoapOut">
+    <part name="parameters" element="s0:getJokesResponse" />
+  </message>
+  <message name="addRatingSoapIn">
+    <part name="parameters" element="s0:addRating" />
+  </message>
+  <message name="addRatingSoapOut">
+    <part name="parameters" element="s0:addRatingResponse" />
+  </message>
+  <message name="getUnmoderatedSoapIn">
+    <part name="parameters" element="s0:getUnmoderated" />
+  </message>
+  <message name="getUnmoderatedSoapOut">
+    <part name="parameters" element="s0:getUnmoderatedResponse" />
+  </message>
+  <message name="addModeratedSoapIn">
+    <part name="parameters" element="s0:addModerated" />
+  </message>
+  <message name="addModeratedSoapOut">
+    <part name="parameters" element="s0:addModeratedResponse" />
+  </message>
+  <message name="deleteUnmoderatedSoapIn">
+    <part name="parameters" element="s0:deleteUnmoderated" />
+  </message>
+  <message name="deleteUnmoderatedSoapOut">
+    <part name="parameters" element="s0:deleteUnmoderatedResponse" />
+  </message>
+  <message name="addJokeHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="joke" type="s:string" />
+  </message>
+  <message name="addJokeHttpGetOut" />
+  <message name="getJokesHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="getJokesHttpGetOut">
+    <part name="Body" element="s1:ArrayOfXmlJokesReturn" />
+  </message>
+  <message name="addRatingHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="rating" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="addRatingHttpGetOut" />
+  <message name="getUnmoderatedHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="getUnmoderatedHttpGetOut">
+    <part name="Body" element="s1:ArrayOfXmlJokesReturn" />
+  </message>
+  <message name="addModeratedHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="addModeratedHttpGetOut" />
+  <message name="deleteUnmoderatedHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="deleteUnmoderatedHttpGetOut" />
+  <message name="addJokeHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="joke" type="s:string" />
+  </message>
+  <message name="addJokeHttpPostOut" />
+  <message name="getJokesHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="getJokesHttpPostOut">
+    <part name="Body" element="s1:ArrayOfXmlJokesReturn" />
+  </message>
+  <message name="addRatingHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="rating" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="addRatingHttpPostOut" />
+  <message name="getUnmoderatedHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="howMany" type="s:string" />
+  </message>
+  <message name="getUnmoderatedHttpPostOut">
+    <part name="Body" element="s1:ArrayOfXmlJokesReturn" />
+  </message>
+  <message name="addModeratedHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="addModeratedHttpPostOut" />
+  <message name="deleteUnmoderatedHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="jokeID" type="s:string" />
+  </message>
+  <message name="deleteUnmoderatedHttpPostOut" />
+  <portType name="jokesSoap">
+    <operation name="addJoke">
+      <documentation>The addJoke method adds a new joke to the database</documentation>
+      <input message="s1:addJokeSoapIn" />
+      <output message="s1:addJokeSoapOut" />
+    </operation>
+    <operation name="getJokes">
+      <documentation>The getJokes method gets &lt;howMany&gt; (moderated) jokes from the database</documentation>
+      <input message="s1:getJokesSoapIn" />
+      <output message="s1:getJokesSoapOut" />
+    </operation>
+    <operation name="addRating">
+      <documentation>The addRating method lets a user add a rating for a joke to the database</documentation>
+      <input message="s1:addRatingSoapIn" />
+      <output message="s1:addRatingSoapOut" />
+    </operation>
+    <operation name="getUnmoderated">
+      <documentation>The getUnmoderated method lets a moderator retrieve &lt;howMany&gt; unmoderated jokes from the database</documentation>
+      <input message="s1:getUnmoderatedSoapIn" />
+      <output message="s1:getUnmoderatedSoapOut" />
+    </operation>
+    <operation name="addModerated">
+      <documentation>The addModerated method lets a moderator set a joke to be 'moderated', i.e. accessible to regular users</documentation>
+      <input message="s1:addModeratedSoapIn" />
+      <output message="s1:addModeratedSoapOut" />
+    </operation>
+    <operation name="deleteUnmoderated">
+      <documentation>The deleteUnmoderated method lets a moderator delete a (unmoderated) joke from the database</documentation>
+      <input message="s1:deleteUnmoderatedSoapIn" />
+      <output message="s1:deleteUnmoderatedSoapOut" />
+    </operation>
+  </portType>
+  <portType name="jokesHttpGet">
+    <operation name="addJoke">
+      <documentation>The addJoke method adds a new joke to the database</documentation>
+      <input message="s1:addJokeHttpGetIn" />
+      <output message="s1:addJokeHttpGetOut" />
+    </operation>
+    <operation name="getJokes">
+      <documentation>The getJokes method gets &lt;howMany&gt; (moderated) jokes from the database</documentation>
+      <input message="s1:getJokesHttpGetIn" />
+      <output message="s1:getJokesHttpGetOut" />
+    </operation>
+    <operation name="addRating">
+      <documentation>The addRating method lets a user add a rating for a joke to the database</documentation>
+      <input message="s1:addRatingHttpGetIn" />
+      <output message="s1:addRatingHttpGetOut" />
+    </operation>
+    <operation name="getUnmoderated">
+      <documentation>The getUnmoderated method lets a moderator retrieve &lt;howMany&gt; unmoderated jokes from the database</documentation>
+      <input message="s1:getUnmoderatedHttpGetIn" />
+      <output message="s1:getUnmoderatedHttpGetOut" />
+    </operation>
+    <operation name="addModerated">
+      <documentation>The addModerated method lets a moderator set a joke to be 'moderated', i.e. accessible to regular users</documentation>
+      <input message="s1:addModeratedHttpGetIn" />
+      <output message="s1:addModeratedHttpGetOut" />
+    </operation>
+    <operation name="deleteUnmoderated">
+      <documentation>The deleteUnmoderated method lets a moderator delete a (unmoderated) joke from the database</documentation>
+      <input message="s1:deleteUnmoderatedHttpGetIn" />
+      <output message="s1:deleteUnmoderatedHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="jokesHttpPost">
+    <operation name="addJoke">
+      <documentation>The addJoke method adds a new joke to the database</documentation>
+      <input message="s1:addJokeHttpPostIn" />
+      <output message="s1:addJokeHttpPostOut" />
+    </operation>
+    <operation name="getJokes">
+      <documentation>The getJokes method gets &lt;howMany&gt; (moderated) jokes from the database</documentation>
+      <input message="s1:getJokesHttpPostIn" />
+      <output message="s1:getJokesHttpPostOut" />
+    </operation>
+    <operation name="addRating">
+      <documentation>The addRating method lets a user add a rating for a joke to the database</documentation>
+      <input message="s1:addRatingHttpPostIn" />
+      <output message="s1:addRatingHttpPostOut" />
+    </operation>
+    <operation name="getUnmoderated">
+      <documentation>The getUnmoderated method lets a moderator retrieve &lt;howMany&gt; unmoderated jokes from the database</documentation>
+      <input message="s1:getUnmoderatedHttpPostIn" />
+      <output message="s1:getUnmoderatedHttpPostOut" />
+    </operation>
+    <operation name="addModerated">
+      <documentation>The addModerated method lets a moderator set a joke to be 'moderated', i.e. accessible to regular users</documentation>
+      <input message="s1:addModeratedHttpPostIn" />
+      <output message="s1:addModeratedHttpPostOut" />
+    </operation>
+    <operation name="deleteUnmoderated">
+      <documentation>The deleteUnmoderated method lets a moderator delete a (unmoderated) joke from the database</documentation>
+      <input message="s1:deleteUnmoderatedHttpPostIn" />
+      <output message="s1:deleteUnmoderatedHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="jokesSoap" type="s1:jokesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="addJoke">
+      <soap:operation soapAction="addJoke" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getJokes">
+      <soap:operation soapAction="getJokes" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addRating">
+      <soap:operation soapAction="addRating" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getUnmoderated">
+      <soap:operation soapAction="getUnmoderated" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addModerated">
+      <soap:operation soapAction="addModerated" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="deleteUnmoderated">
+      <soap:operation soapAction="deleteUnmoderated" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="jokesHttpGet" type="s1:jokesHttpGet">
+    <http:binding verb="GET" />
+    <operation name="addJoke">
+      <http:operation location="/addJoke" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="getJokes">
+      <http:operation location="/getJokes" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="addRating">
+      <http:operation location="/addRating" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="getUnmoderated">
+      <http:operation location="/getUnmoderated" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="addModerated">
+      <http:operation location="/addModerated" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="deleteUnmoderated">
+      <http:operation location="/deleteUnmoderated" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+  </binding>
+  <binding name="jokesHttpPost" type="s1:jokesHttpPost">
+    <http:binding verb="POST" />
+    <operation name="addJoke">
+      <http:operation location="/addJoke" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="getJokes">
+      <http:operation location="/getJokes" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="addRating">
+      <http:operation location="/addRating" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="getUnmoderated">
+      <http:operation location="/getUnmoderated" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="addModerated">
+      <http:operation location="/addModerated" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="deleteUnmoderated">
+      <http:operation location="/deleteUnmoderated" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+  </binding>
+  <service name="jokes">
+    <documentation>The jokes web service provides methods to manage and retrieve jokes from the database</documentation>
+    <port name="jokesSoap" binding="s1:jokesSoap">
+      <soap:address location="http://localhost/jokesService/jokes.asmx" />
+    </port>
+    <port name="jokesHttpGet" binding="s1:jokesHttpGet">
+      <http:address location="http://localhost/jokesService/jokes.asmx" />
+    </port>
+    <port name="jokesHttpPost" binding="s1:jokesHttpPost">
+      <http:address location="http://localhost/jokesService/jokes.asmx" />
+    </port>
+  </service>
+</definitions>

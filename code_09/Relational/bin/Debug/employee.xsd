@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<xsd:schema id="Employees" targetNamespace="" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:element name="Employees" msdata:IsDataSet="true">
+    <xsd:complexType>
+      <xsd:choice maxOccurs="unbounded">
+        <xsd:element name="Employee">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="FirstName" type="xsd:string" minOccurs="0" />
+              <xsd:element name="MiddleName" type="xsd:string" minOccurs="0" />
+              <xsd:element name="LastName" type="xsd:string" minOccurs="0" />
+              <xsd:element name="Salaried" type="xsd:boolean" minOccurs="0" />
+              <xsd:element name="Wage" type="xsd:double" minOccurs="0" />
+              <xsd:element name="Active" type="xsd:boolean" minOccurs="0" />
+              <xsd:element name="SSN" type="xsd:string" minOccurs="0" />
+              <xsd:element name="StartDate" type="xsd:date" minOccurs="0" />
+            </xsd:sequence>
+            <xsd:attribute name="EmployeeID" type="xsd:int" />
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

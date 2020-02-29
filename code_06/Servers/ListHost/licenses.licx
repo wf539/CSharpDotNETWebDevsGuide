@@ -1,0 +1,3 @@
+System.ServiceProcess.ServiceInstaller, System.ServiceProcess, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.Configuration.Install.Installer, System.Configuration.Install, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+System.ServiceProcess.ServiceProcessInstaller, System.ServiceProcess, Version=1.0.2411.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a

@@ -1,0 +1,138 @@
+<?xml version="1.0" standalone="yes"?>
+<Employees>
+  <Employee EmployeeID="1">
+    <FirstName>John</FirstName>
+    <MiddleInit>M</MiddleInit>
+    <LastName>Smith</LastName>
+    <Salaried>true</Salaried>
+    <Wage>40000</Wage>
+    <Active>true</Active>
+    <Title>Jr. Programmer</Title>
+    <Location>
+      <Address>103 N.72nd</Address>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98103</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="2">
+    <FirstName>Joe</FirstName>
+    <MiddleInit>R</MiddleInit>
+    <LastName>Jones</LastName>
+    <Salaried>false</Salaried>
+    <Wage>22.75</Wage>
+    <Active>true</Active>
+    <Title>Graphic Artist</Title>
+    <Location>
+      <Address>13222 S. 1st Avenue</Address>
+      <City>Portland</City>
+      <State>OR</State>
+      <Zip>97206</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="3">
+    <FirstName>Sally</FirstName>
+    <MiddleInit>F</MiddleInit>
+    <LastName>McArthur</LastName>
+    <Salaried>true</Salaried>
+    <Wage>85000</Wage>
+    <Active>true</Active>
+    <Title>VP of Engineering</Title>
+    <Location>
+      <Address>13222 S. 1st Avenue</Address>
+      <City>Portland</City>
+      <State>OR</State>
+      <Zip>97206</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="4">
+    <FirstName>Tom</FirstName>
+    <MiddleInit>V</MiddleInit>
+    <LastName>Johnson</LastName>
+    <Salaried>true</Salaried>
+    <Wage>25000</Wage>
+    <Active>true</Active>
+    <Title>Clerical I</Title>
+    <Location>
+      <Address>103 N.72nd</Address>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98103</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="5">
+    <FirstName>Amy</FirstName>
+    <MiddleInit>A</MiddleInit>
+    <LastName>Simpson</LastName>
+    <Salaried>true</Salaried>
+    <Wage>60000</Wage>
+    <Active>true</Active>
+    <Title>QA Engineer</Title>
+    <Location>
+      <Address>103 N.72nd</Address>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98103</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="6">
+    <FirstName>Donald</FirstName>
+    <MiddleInit>C</MiddleInit>
+    <LastName>Boone</LastName>
+    <Salaried>false</Salaried>
+    <Wage>10.25</Wage>
+    <Active>true</Active>
+    <Title>Intern</Title>
+    <Location>
+      <Address>13222 S. 1st Avenue</Address>
+      <City>Portland</City>
+      <State>OR</State>
+      <Zip>97206</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="7">
+    <FirstName>Brenda</FirstName>
+    <MiddleInit>A</MiddleInit>
+    <LastName>Bauer</LastName>
+    <Salaried>true</Salaried>
+    <Wage>42000</Wage>
+    <Active>true</Active>
+    <Title>Jr. Programmer</Title>
+    <Location>
+      <Address>103 N.72nd</Address>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98103</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="8">
+    <FirstName>Tatiana</FirstName>
+    <MiddleInit>L</MiddleInit>
+    <LastName>Bukov</LastName>
+    <Salaried>true</Salaried>
+    <Wage>21000</Wage>
+    <Active>true</Active>
+    <Title>Clerical I</Title>
+    <Location>
+      <Address>13222 S. 1st Avenue</Address>
+      <City>Portland</City>
+      <State>OR</State>
+      <Zip>97206</Zip>
+    </Location>
+  </Employee>
+  <Employee EmployeeID="9">
+    <FirstName>Jeff</FirstName>
+    <MiddleInit>F</MiddleInit>
+    <LastName>Cameron</LastName>
+    <Salaried>true</Salaried>
+    <Wage>50000</Wage>
+    <Active>false</Active>
+    <Title>HR Manager</Title>
+    <Location>
+      <Address>13222 S. 1st Avenue</Address>
+      <City>Portland</City>
+      <State>OR</State>
+      <Zip>97206</Zip>
+    </Location>
+  </Employee>
+</Employees>

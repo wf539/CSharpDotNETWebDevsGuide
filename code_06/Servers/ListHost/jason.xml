@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListHost</name>
+    </assembly>
+    <members>
+        <member name="F:ListHost.Service1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ListHost.Service1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ListHost.Service1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:ListHost.Service1.OnStart(System.String[])">
+            <summary>
+            Set things in motion so your service can do its work.
+            </summary>
+        </member>
+        <member name="M:ListHost.Service1.OnStop">
+            <summary>
+            Stop this service.
+            </summary>
+        </member>
+        <member name="T:ListHost.ProjectInstaller">
+            <summary>
+            Summary description for ProjectInstaller.
+            </summary>
+        </member>
+        <member name="F:ListHost.ProjectInstaller.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ListHost.ProjectInstaller.Dispose">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:ListHost.ProjectInstaller.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

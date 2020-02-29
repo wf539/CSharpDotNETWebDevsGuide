@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSender", "DrawingSender.csproj", "{2EE7C1BF-8C6B-4A7D-B146-6577DDD3BEA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingReceiver", "..\DrawingReceiver\DrawingReceiver.csproj", "{1C815217-F7FF-4D6E-818B-1FD3B9887D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQGraphics", "..\MSMQGraphics\MSMQGraphics.csproj", "{7237381D-00EE-4D5E-854F-3205DF4EF5F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2EE7C1BF-8C6B-4A7D-B146-6577DDD3BEA3}.Debug.ActiveCfg = Debug|.NET
+		{2EE7C1BF-8C6B-4A7D-B146-6577DDD3BEA3}.Debug.Build.0 = Debug|.NET
+		{2EE7C1BF-8C6B-4A7D-B146-6577DDD3BEA3}.Release.ActiveCfg = Release|.NET
+		{2EE7C1BF-8C6B-4A7D-B146-6577DDD3BEA3}.Release.Build.0 = Release|.NET
+		{1C815217-F7FF-4D6E-818B-1FD3B9887D0E}.Debug.ActiveCfg = Debug|.NET
+		{1C815217-F7FF-4D6E-818B-1FD3B9887D0E}.Debug.Build.0 = Debug|.NET
+		{1C815217-F7FF-4D6E-818B-1FD3B9887D0E}.Release.ActiveCfg = Release|.NET
+		{1C815217-F7FF-4D6E-818B-1FD3B9887D0E}.Release.Build.0 = Release|.NET
+		{7237381D-00EE-4D5E-854F-3205DF4EF5F7}.Debug.ActiveCfg = Debug|.NET
+		{7237381D-00EE-4D5E-854F-3205DF4EF5F7}.Debug.Build.0 = Debug|.NET
+		{7237381D-00EE-4D5E-854F-3205DF4EF5F7}.Release.ActiveCfg = Release|.NET
+		{7237381D-00EE-4D5E-854F-3205DF4EF5F7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sessionTest", "http://localhost/sessionTest/sessionTest.csproj", "{90E6807D-94EE-4E15-B7A4-F0B58E369BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{90E6807D-94EE-4E15-B7A4-F0B58E369BAE}.Debug.ActiveCfg = Debug|.NET
+		{90E6807D-94EE-4E15-B7A4-F0B58E369BAE}.Debug.Build.0 = Debug|.NET
+		{90E6807D-94EE-4E15-B7A4-F0B58E369BAE}.Release.ActiveCfg = Release|.NET
+		{90E6807D-94EE-4E15-B7A4-F0B58E369BAE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

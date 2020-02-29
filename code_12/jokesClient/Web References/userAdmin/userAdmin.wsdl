@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:schemas-syngress-com-soap:userAdmin" xmlns:tns="urn:schemas-syngress-com-soap" targetNamespace="urn:schemas-syngress-com-soap" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:schemas-syngress-com-soap:userAdmin">
+      <s:element name="addUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="addModerator">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="newModerator" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addModeratorResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="checkUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userName" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="password" nillable="true" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isModerator" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkUserResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="addUserSoapIn">
+    <part name="parameters" element="s0:addUser" />
+  </message>
+  <message name="addUserSoapOut">
+    <part name="parameters" element="s0:addUserResponse" />
+  </message>
+  <message name="addModeratorSoapIn">
+    <part name="parameters" element="s0:addModerator" />
+  </message>
+  <message name="addModeratorSoapOut">
+    <part name="parameters" element="s0:addModeratorResponse" />
+  </message>
+  <message name="checkUserSoapIn">
+    <part name="parameters" element="s0:checkUser" />
+  </message>
+  <message name="checkUserSoapOut">
+    <part name="parameters" element="s0:checkUserResponse" />
+  </message>
+  <message name="addUserHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+  </message>
+  <message name="addUserHttpGetOut" />
+  <message name="addModeratorHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="newModerator" type="s:string" />
+  </message>
+  <message name="addModeratorHttpGetOut" />
+  <message name="checkUserHttpGetIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="isModerator" type="s:string" />
+  </message>
+  <message name="checkUserHttpGetOut" />
+  <message name="addUserHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+  </message>
+  <message name="addUserHttpPostOut" />
+  <message name="addModeratorHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="newModerator" type="s:string" />
+  </message>
+  <message name="addModeratorHttpPostOut" />
+  <message name="checkUserHttpPostIn">
+    <part name="userName" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="isModerator" type="s:string" />
+  </message>
+  <message name="checkUserHttpPostOut" />
+  <portType name="userAdminSoap">
+    <operation name="addUser">
+      <documentation>The addUser method adds a new user to the database</documentation>
+      <input message="tns:addUserSoapIn" />
+      <output message="tns:addUserSoapOut" />
+    </operation>
+    <operation name="addModerator">
+      <documentation>The addModerator method adds a new moderator to the database</documentation>
+      <input message="tns:addModeratorSoapIn" />
+      <output message="tns:addModeratorSoapOut" />
+    </operation>
+    <operation name="checkUser">
+      <documentation>The checkUser method checks if a user or moderator is already defined in the database</documentation>
+      <input message="tns:checkUserSoapIn" />
+      <output message="tns:checkUserSoapOut" />
+    </operation>
+  </portType>
+  <portType name="userAdminHttpGet">
+    <operation name="addUser">
+      <documentation>The addUser method adds a new user to the database</documentation>
+      <input message="tns:addUserHttpGetIn" />
+      <output message="tns:addUserHttpGetOut" />
+    </operation>
+    <operation name="addModerator">
+      <documentation>The addModerator method adds a new moderator to the database</documentation>
+      <input message="tns:addModeratorHttpGetIn" />
+      <output message="tns:addModeratorHttpGetOut" />
+    </operation>
+    <operation name="checkUser">
+      <documentation>The checkUser method checks if a user or moderator is already defined in the database</documentation>
+      <input message="tns:checkUserHttpGetIn" />
+      <output message="tns:checkUserHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="userAdminHttpPost">
+    <operation name="addUser">
+      <documentation>The addUser method adds a new user to the database</documentation>
+      <input message="tns:addUserHttpPostIn" />
+      <output message="tns:addUserHttpPostOut" />
+    </operation>
+    <operation name="addModerator">
+      <documentation>The addModerator method adds a new moderator to the database</documentation>
+      <input message="tns:addModeratorHttpPostIn" />
+      <output message="tns:addModeratorHttpPostOut" />
+    </operation>
+    <operation name="checkUser">
+      <documentation>The checkUser method checks if a user or moderator is already defined in the database</documentation>
+      <input message="tns:checkUserHttpPostIn" />
+      <output message="tns:checkUserHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="userAdminSoap" type="tns:userAdminSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="addUser">
+      <soap:operation soapAction="addUser" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addModerator">
+      <soap:operation soapAction="addModerator" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="checkUser">
+      <soap:operation soapAction="checkUser" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="userAdminHttpGet" type="tns:userAdminHttpGet">
+    <http:binding verb="GET" />
+    <operation name="addUser">
+      <http:operation location="/addUser" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="addModerator">
+      <http:operation location="/addModerator" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+    <operation name="checkUser">
+      <http:operation location="/checkUser" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output />
+    </operation>
+  </binding>
+  <binding name="userAdminHttpPost" type="tns:userAdminHttpPost">
+    <http:binding verb="POST" />
+    <operation name="addUser">
+      <http:operation location="/addUser" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="addModerator">
+      <http:operation location="/addModerator" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+    <operation name="checkUser">
+      <http:operation location="/checkUser" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output />
+    </operation>
+  </binding>
+  <service name="userAdmin">
+    <documentation>The userAdmin web service provides methods to manage users and moderators in the database</documentation>
+    <port name="userAdminSoap" binding="tns:userAdminSoap">
+      <soap:address location="http://localhost/jokesService/userAdmin.asmx" />
+    </port>
+    <port name="userAdminHttpGet" binding="tns:userAdminHttpGet">
+      <http:address location="http://localhost/jokesService/userAdmin.asmx" />
+    </port>
+    <port name="userAdminHttpPost" binding="tns:userAdminHttpPost">
+      <http:address location="http://localhost/jokesService/userAdmin.asmx" />
+    </port>
+  </service>
+</definitions>

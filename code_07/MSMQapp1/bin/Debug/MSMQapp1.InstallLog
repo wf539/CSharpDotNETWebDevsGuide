@@ -1,0 +1,10 @@
+Call Installing. on the D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.exe
+   logfile = D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.InstallLog
+Creating queue synergy\Private$\alpha.
+Call Committing. on the D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.exe
+   logfile = D:\Authoring\MSMQ\projects\MSMQapp1\bin\Debug\MSMQapp1.InstallLog
+Clearing any messages from queue synergy\Private$\alpha.

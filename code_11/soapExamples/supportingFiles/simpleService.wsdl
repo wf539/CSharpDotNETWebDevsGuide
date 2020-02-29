@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="urn:schemas-syngress-com-soap" targetNamespace="urn:schemas-syngress-com-soap" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="urn:schemas-syngress-com-soap">
+      <s:element name="echo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="input" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="echoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="echoResult" nillable="true" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </types>
+  <message name="echoSoapIn">
+    <part name="parameters" element="s0:echo" />
+  </message>
+  <message name="echoSoapOut">
+    <part name="parameters" element="s0:echoResponse" />
+  </message>
+  <message name="echoHttpGetIn">
+    <part name="input" type="s:string" />
+  </message>
+  <message name="echoHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="echoHttpPostIn">
+    <part name="input" type="s:string" />
+  </message>
+  <message name="echoHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <portType name="simpleServiceSoap">
+    <operation name="echo">
+      <input message="s0:echoSoapIn" />
+      <output message="s0:echoSoapOut" />
+    </operation>
+  </portType>
+  <portType name="simpleServiceHttpGet">
+    <operation name="echo">
+      <input message="s0:echoHttpGetIn" />
+      <output message="s0:echoHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="simpleServiceHttpPost">
+    <operation name="echo">
+      <input message="s0:echoHttpPostIn" />
+      <output message="s0:echoHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="simpleServiceSoap" type="s0:simpleServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="echo">
+      <soap:operation soapAction="urn:schemas-syngress-com-soap/echo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="simpleServiceHttpGet" type="s0:simpleServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="echo">
+      <http:operation location="/echo" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="simpleServiceHttpPost" type="s0:simpleServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="echo">
+      <http:operation location="/echo" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="simpleService">
+    <port name="simpleServiceSoap" binding="s0:simpleServiceSoap">
+      <soap:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+    <port name="simpleServiceHttpGet" binding="s0:simpleServiceHttpGet">
+      <http:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+    <port name="simpleServiceHttpPost" binding="s0:simpleServiceHttpPost">
+      <http:address location="http://localhost/soapExamples/simpleService.asmx" />
+    </port>
+  </service>
+</definitions>

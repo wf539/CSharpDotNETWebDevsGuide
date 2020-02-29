@@ -1,0 +1,22 @@
+Call Installing. on the D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe
+   logfile = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.InstallLog
+Installing service ListService...
+Creating EventLog source ListService in log Application...
+Call Rolling back. on the D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe
+   logfile = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.InstallLog
+Restoring event log to previous state for source ListService.
+Call Installing. on the D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe
+   logfile = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.InstallLog
+Installing service ListService...
+Service ListService has been successfully installed.
+Creating EventLog source ListService in log Application...
+Call Committing. on the D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe assembly.
+Affected parameters are:
+   assemblypath = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.exe
+   logfile = D:\Authoring\Remoting\Projects\Servers\ListService\bin\Debug\ListService.InstallLog

@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<WageHistory>
+  <WageChange EmployeeID="1">
+    <Date>1999-04-01</Date>
+    <Wage>33000</Wage>
+  </WageChange>
+  <WageChange EmployeeID="2">
+    <Date>2001-04-01</Date>
+    <Wage>22.75</Wage>
+  </WageChange>
+  <WageChange EmployeeID="1">
+    <Date>2000-04-01</Date>
+    <Wage>36000</Wage>
+  </WageChange>
+  <WageChange EmployeeID="3">
+    <Date>2000-01-01</Date>
+    <Wage>75000</Wage>
+  </WageChange>
+  <WageChange EmployeeID="3">
+    <Date>2001-01-01</Date>
+    <Wage>85000</Wage>
+  </WageChange>
+  <WageChange EmployeeID="1">
+    <Date>2001-04-01</Date>
+    <Wage>40000</Wage>
+  </WageChange>
+</WageHistory>

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<Employees>
+  <Employee EmployeeID="1">
+    <FirstName>John</FirstName>
+    <MiddleName>M</MiddleName>
+    <LastName>Smith</LastName>
+    <Salaried>true</Salaried>
+    <Wage>40000</Wage>
+    <Active>false</Active>
+    <SSN>555-55-55555</SSN>
+    <StartDate>1999-04-01</StartDate>
+  </Employee>
+  <Employee EmployeeID="2">
+    <FirstName>Joe</FirstName>
+    <MiddleName>R</MiddleName>
+    <LastName>Jones</LastName>
+    <Salaried>false</Salaried>
+    <Wage>22.75</Wage>
+    <Active>false</Active>
+    <SSN>666-66-6666</SSN>
+    <StartDate>2001-04-01</StartDate>
+  </Employee>
+  <Employee EmployeeID="3">
+    <FirstName>Sally</FirstName>
+    <MiddleName>F</MiddleName>
+    <LastName>McArthur</LastName>
+    <Salaried>true</Salaried>
+    <Wage>85000</Wage>
+    <Active>false</Active>
+    <SSN>777-77-7777</SSN>
+    <StartDate>2000-01-01</StartDate>
+  </Employee>
+</Employees>

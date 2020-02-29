@@ -1,0 +1,30 @@
+.poll
+{
+	font-family:Verdana, Arial, Sans-Serif;
+	font-size:10pt;
+	background-color:#eeeeee;
+	width:175px;
+}
+
+TH
+{
+	background-color:#3a6ea5;
+	height:30px;
+	color:White;
+	font-size:12pt;
+}
+
+.topic
+{
+	background-color:silver;
+	font-weight:bold;
+}
+
+.wrapper
+{
+	width:185px;
+	padding: 3px;
+	border-style:outset;
+	border-width:thin;
+}
+
